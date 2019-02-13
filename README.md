@@ -1,17 +1,35 @@
-Development strategy
-=======================================================
+# Features
+- Individual page for assignments, lectures, course material, schedule, final project
+- Auto generated Schedule Page
+- 3 Event type
+- Manual & auto generated announcements (for new lectures and assignments)
+- Support for Persian Calendar
+- Super lightweight 
+- Ready to use in Github Pages
 
-# How to build & contribute
-1. clone repository `git clone https://github.com/iust-courses/iust-courses.github.io.git`
-2. `cd iust-courses.github.io/developments/ai97`
-3. install requirements:
+# Demo
+Checkout for a working example at [iust-courses.github.io/ai97](https://iust-courses.github.io/ai97).
+
+# Some Screenshot
+<p float="left">
+<img src="https://raw.githubusercontent.com/kazemnejad/jekyll-course-website-template/master/_images/home_page.jpg" width="400">
+<img src="https://raw.githubusercontent.com/kazemnejad/jekyll-course-website-template/master/_images/schedule_page.jpg" width="400">
+</p>
+
+# Acknowledgement 
+This template is heavily based on [svmiller / course-website](https://github.com/svmiller/course-website) works.
+
+
+# How to use
+1. Install Jekyll ([Installation guide](https://jekyllrb.com/docs/installation/))
+3. Install requirements:
    `gem install jekyll-jalali`
-4. add your content, apply your changes.
-4. build! `jekyll build -d ../../ai97/`
-5. push your changes
+4. Watch your website while changing: `jekyll serve`
+5. add your content, apply your changes.
+6. build! `jekyll build -d path/to/your/output/dir`
 
 # How to edit website
-There are 6 types of content you can add to the website, each content category has its own template & its own subdirectory. if you use just use with these categories then All pages will be generated automatically for you including Announcements, Schedule, and Lectures.
+There are 6 types of content you can add to the website, each content category has its own template & its own subdirectory. if you follow the templates, All pages will be generated automatically for you including Announcements, Schedule, and Lectures.
 
 ## Lectures
 If you want to add a new lecture, please create an empty file with `.md` postfix in `_lectures/` directory. fill it using below template:
@@ -130,6 +148,4 @@ hide_from_announcments: false
 ## Hello
 this is a custom event with `code` 
 ```
-### Acknowledgement 
-This template is heavily based on [svmiller / course-website](https://github.com/svmiller/course-website) works.
 
