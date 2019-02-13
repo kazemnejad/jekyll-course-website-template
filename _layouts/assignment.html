@@ -1,0 +1,39 @@
+---
+layout: default
+title: page.title
+---
+<div class="post">
+
+  <header class="post-header">
+    <h1 class="post-title">{{ page.title }}</h1>
+    <p class="post-meta">Released on {{ page.date | date: "%A" }} {{ page.date | jdate: "%Y/%m/%e" }}</p>
+  </header>
+
+  <div>
+    {% if page.due %}
+    <span style="font-weight: bold">Due Date: {{ page.due | jdate: "%Y/%m/%e" }} {{ page.due | date: "%H:%M" }}</span>
+    {% endif %}
+    <p style="font-weight: bold">Download
+      {% if page.pdf %}
+      [<a href="{{ page.pdf | prepend: site.baseurl }}">problems</a>]
+      {% endif %}
+      {% if page.attachment %}
+      [<a href="{{ page.attachment | prepend: site.baseurl }}">attachment</a>]
+      {% endif %}
+      {% if page.solutions %}
+      [<a href="{{ page.solutions | prepend: site.baseurl }}">solutions</a>]
+      {% endif %}
+    </p>
+
+    <div style="color: gray;">
+      <h3>Late Policy</h3>
+      {% include late_policy.html %}
+    </div>
+  </div>
+
+  <br />
+  <article class="post-content">
+    {{ content }}
+  </article>
+
+</div>

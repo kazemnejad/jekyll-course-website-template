@@ -1,0 +1,10 @@
+<div class="col col-1">{{ include.event.name }}</div>
+<div class="col col-1-2" data-label="Date">
+    {{ include.event.date | jdate: "%Y/%m/%e" }}
+    {% unless include.event.hide_time %}
+    {{ include.event.date | date: "%H:%M" }}
+    {% endunless %}
+    <br class="date-spliter" />{{ include.event.date | date: "%A" }}
+</div>
+<div class="col col-2" data-label="Description">{{ include.event.description }}</div>
+<div class="col col-4" data-label="Course Material">{{ include.event.content }}</div>

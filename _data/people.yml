@@ -1,0 +1,10 @@
+instructor:
+  name: Alan Turing
+  profile_pic: /_images/pp/inst.jpg
+
+teaching_assistants:
+  - name: Nikola tesla
+    profile_pic: /_images/pp/ta01.jpg
+
+  - name: Albert Einstein
+    profile_pic: /_images/pp/ta02.jpg

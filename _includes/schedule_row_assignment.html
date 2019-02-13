@@ -1,0 +1,14 @@
+<div class="col col-1" style="color: #31708f ;font-weight: bold;" data-label="Event">Assignment</div>
+<div class="col col-1-2" data-label="Date">
+    {{ include.event.date | jdate: "%Y/%m/%e" }}
+    <br class="date-spliter" />{{ include.event.date | date: "%A" }}
+</div>
+<div class="col col-2" style="font-weight: bold" data-label="Description">
+    {{ include.event.title }} released!
+</div>
+<div class="col col-4" data-label="Course Material">
+    [<a href="{{ include.event.url | prepend: site.baseurl}}">{{ include.event.title }}</a>]
+    {% if include.event.solutions %}
+    [<a href="{{ include.event.solutions | prepend: site.baseurl}}">Solutions</a>]
+    {% endif %}
+</div>

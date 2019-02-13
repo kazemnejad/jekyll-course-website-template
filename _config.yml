@@ -1,0 +1,57 @@
+# Site settings
+title: Iran University of Science and Technology
+course_name: Course Name
+course_description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam ornare aliquam mattis. Donec hendrerit sollicitudin urna. Aliquam venenatis rutrum velit, at lobortis dui cursus a. Nam varius metus in turpis maximus, ut rhoncus tellus dictum. In aliquam tortor nec mi dapibus, sit amet vehicula dolor auctor."
+course_semester: "Fall 2050"
+description: |
+    Instructor: Alan Turing
+
+message: Register to our Google <a href="https://groups.google.com/forum/#!forum/gp-id">groups page</a> to get course notifications via email.
+baseurl: "/base-url" # the subpath of your site, e.g. /blog/
+url: "http://iust-courses.github.io/" # the base hostname & protocol for your site
+githubdir: "username/repo"
+
+# Author/user information
+email: instructor-last-name@iust.ac.ir
+twitter_username: username 
+github_username:  username
+authorurl: "http://author-url.com/page"
+address: |
+    School of Computer Engineering
+    Iran University of Science and Technology
+    Tehran, Iran
+
+
+# Build settings
+markdown: kramdown
+
+# Other options
+permalink: blog/:year/:month/:title
+excerpt_separator: "<!--more-->"
+
+include: ['_images', '_css']
+exclude: ['develop']
+
+future: true
+collections:
+    events:
+        output: true
+    lectures:
+        output: true
+    assignments:
+        output: true
+    announcements:
+        output: false
+
+
+defaults:
+  - scope:
+      path: ""
+      type: "assignments"
+    values:
+      layout: "assignment"
+
+
+
+plugins:
+    - jekyll-jalali

@@ -1,0 +1,83 @@
+@media only screen and (max-width: 600px) {
+
+.site-nav h1 {
+		border-bottom: 3px solid transparent;
+		cursor: pointer;
+		display: none; /* Standard. IE8+, Saf, FF3+ */
+		height: 23px;
+		left: auto;
+		margin-top: 10px;
+		position: static;
+		white-space: nowrap;
+	}
+
+.site-nav .menu {
+		border: 3px solid transparent;
+		border-top: 0;
+		/* bg and border colors set in header */
+		-moz-box-shadow: 0px 2px 2px rgba(0,0,0,0.8);
+		-webkit-box-shadow: 0px 2px 2px rgba(0,0,0,0.8);
+		box-shadow: 0px 2px 2px rgba(0,0,0,0.8);
+		/* Hide until activated */
+		display: block;
+		left: -3px;
+		min-width: 215px;
+/*		margin-top: 36px; */
+		padding: 4px 0;
+		position: relative;
+		right: -3px;
+		z-index: 999;
+	}
+
+
+.site-nav .menu.open {
+		display: block;
+	}
+
+.site-nav .menu li {
+		display: block;
+		margin: 0;
+		color: #522d80;
+	}
+
+.site-nav ul.menu a {
+	background: #fff;
+	color: #522d80;
+
+}
+
+.site-nav a,
+	.site-nav li.current-menu-item > a {
+		padding: 4px 10px;
+	}
+
+.site-nav .menu > li {
+		height: auto;
+		text-align: left;
+	}
+
+.site-nav .sub-menu {
+		border: 0;
+		-moz-box-shadow: none; /* FF3.5+ */
+		-webkit-box-shadow: none; /* Saf3+, Chrome */
+		box-shadow: none; /* Standard. Opera 10.5, IE9 */
+		display: block;
+		font-family: 'Titillium Web', Helvetica, Arial, Verdana, sans-serif;
+		position: relative;
+		min-width: 215px;
+		max-width: 215px;
+		top: auto;
+		text-transform: uppercase;
+		right: auto;
+		width: auto;
+	}
+
+	.site-nav .sub-menu {
+		padding-left: 16px;
+	}
+	.site-nav .sub-menu li.current-menu-item > a {
+		border: 0;
+	}
+
+}
+

@@ -1,0 +1,12 @@
+<div class="col col-1" style="color: #a94442 ;font-weight: bold;" data-label="Event">Exam</div>
+<div class="col col-1-2" style="font-weight: bold" data-label="Date">
+    {{ event.date | jdate: "%Y/%m/%e" }}
+    {{ event.date | date: "%H:%M" }}
+    <br class="date-spliter"/>{{ event.date | date: "%A" }}
+</div>
+<div class="col col-2" style="font-weight: bold" data-label="Description">
+    {{ include.event.description }}
+</div>
+<div class="col col-4" data-label="Course Material">
+    {{ include.event.content}}
+</div>
