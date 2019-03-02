@@ -21,7 +21,11 @@
             {% if n.type == 'lecture' %}
                 New Lecture is up: {{ n.title }}
                 {% if n.slides %}
-                [<a href="{{ n.slides | prepend: site.baseurl  }}">slides</a>]
+                [<a href="{% if n.slides contains '://' %}
+                {{ n.slides }} 
+              {% else %}
+                {{ n.slides | prepend: site.baseurl }} 
+              {% endif %}">slides</a>]
                 {% endif %}
             {% elsif n.type == 'assignment' %}
                 New Assignment released: [<a href="{{ n.url | prepend: site.baseurl }}">{{ n.title }}</a>]
