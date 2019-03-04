@@ -28,21 +28,8 @@ You can download the lectures here (in PDF format). I will try to upload lecture
 
         <strong>tl;dr:</strong> {{ lecture.tldr }}
         <br/>
-        <strong style="font-size:100%; font-family: 'Titillium Web', sans-serif;">
-            [<a title="Download slides (pdf)" href="
-            {% if lecture.slides contains '://' %}
-              {{ lecture.slides }} 
-            {% else %}
-              {{ lecture.slides | prepend: site.baseurl }} 
-            {% endif %}">slides</a>]
-            {% if lecture.notes %}
-            [<a title="Download notes (zip)" href="
-            {% if lecture.notes contains '://' %}
-              {{ lecture.notes }} 
-            {% else %}
-              {{ lecture.notes | prepend: site.baseurl }} 
-            {% endif %}">notes</a>]
-            {% endif %}
+        <strong>
+        {% include lecture_links.html lecture=lecture %}
         </strong>
     </div>
 </div>
