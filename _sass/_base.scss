@@ -429,12 +429,13 @@ a.tosu {
 .center-cropped {
     width: 100px;
     height: 60px;
-    background-position: center center;
     background-repeat: no-repeat;
     overflow: hidden;
-    border: 2px solid $brand-color;
+    border: 2px solid #0077CC;
     border-radius: 5%;
     margin-right: 10px;
+    background-position: center;
+    background-size: contain;
   }
   
   /* Set the image to fill its parent and make transparent */
