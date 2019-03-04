@@ -7,10 +7,18 @@
     {{ include.event.title }}
     {% if include.event.slides %}
     <br />
-    [<a href="{{ include.event.slides | prepend: site.baseurl }}">slides</a>]
+    [<a href="{% if include.event.slides contains '://' %}
+    {{ include.event.slides }} 
+  {% else %}
+    {{ include.event.slides | prepend: include.event.baseurl }} 
+  {% endif %}">slides</a>]
     {% endif %}
     {% if include.event.notes %}
-    [<a href="{{ include.event.notes | prepend: site.baseurl }}">notes</a>]
+    [<a href="{% if include.event.notes contains '://' %}
+    {{ include.event.notes }} 
+  {% else %}
+    {{ include.event.notes | prepend: site.baseurl }} 
+  {% endif %}">notes</a>]
     {% endif %}
 </div>
 <div class="col col-4" data-label="Course Material">
