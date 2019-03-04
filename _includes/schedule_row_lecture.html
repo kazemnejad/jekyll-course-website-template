@@ -5,21 +5,9 @@
 </div>
 <div class="col col-2" data-label="Description">
     {{ include.event.title }}
-    {% if include.event.slides %}
-    <br />
-    [<a href="{% if include.event.slides contains '://' %}
-    {{ include.event.slides }} 
-  {% else %}
-    {{ include.event.slides | prepend: include.event.baseurl }} 
-  {% endif %}">slides</a>]
-    {% endif %}
-    {% if include.event.notes %}
-    [<a href="{% if include.event.notes contains '://' %}
-    {{ include.event.notes }} 
-  {% else %}
-    {{ include.event.notes | prepend: site.baseurl }} 
-  {% endif %}">notes</a>]
-    {% endif %}
+    <div class="schedule-lecture-links">
+    {% include lecture_links.html lecture=include.event %}
+    </div>
 </div>
 <div class="col col-4" data-label="Course Material">
     {% if include.event.suggested_readings %}

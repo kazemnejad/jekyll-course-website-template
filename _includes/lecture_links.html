@@ -1,0 +1,24 @@
+<div>
+    [<a title="Download slides (pdf)" href="
+    {% if include.lecture.slides contains '://' %}
+      {{ include.lecture.slides }} 
+    {% else %}
+      {{ include.lecture.slides | prepend: site.baseurl }} 
+    {% endif %}">slides</a>]
+    {% if include.lecture.notes %}
+    [<a title="Download notes (zip)" href="
+    {% if include.lecture.notes contains '://' %}
+      {{ include.lecture.notes }} 
+    {% else %}
+      {{ include.lecture.notes | prepend: site.baseurl }} 
+    {% endif %}">notes</a>]
+    {% endif %}
+    {% if include.lecture.codes %}
+    [<a title="Download codes (zip)" href="
+    {% if include.lecture.codes contains '://' %}
+      {{ include.lecture.codes }} 
+    {% else %}
+      {{ include.lecture.codes | prepend: site.baseurl }} 
+    {% endif %}">codes</a>]
+    {% endif %}
+</div>
