@@ -17,7 +17,7 @@ Checkout for a working example at [iust-courses.github.io/ai97](https://iust-cou
 </p>
 
 # Acknowledgement 
-This template is heavily based on [svmiller / course-website](https://github.com/svmiller/course-website) works.
+This template is heavily based on [svmiller / course-website](https://github.com/svmiller/course-website).
 
 
 # How to use
