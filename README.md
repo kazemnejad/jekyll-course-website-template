@@ -1,19 +1,34 @@
 # Features
-- Individual page for assignments, lectures, course material, schedule, final project
-- Auto generated Schedule Page
-- 3 Event type
-- Manual & auto generated announcements (for new lectures and assignments)
-- Support for Persian Calendar
+- Individual page for assignments, lectures, course material, course schedule
+- Auto generated Course schedule Page
+- Auto generated course updates section (for each new lectures and assignments) + custom/manual announcements 
 - Super lightweight 
-- Ready to use in Github Pages
+- Highly customizable
+- Ready to be used in Github Pages
+
+## Change log
+- Version 2.0
+  - New Schedule page with more efficient use of space.
+  - Gregorian calendar is now the default one (English Calendar).
+  - Add customization option to home, assignments, lectures, and schedule pages.
+  - Add support for themes (so you can modify website's look according to your school's brandings)!.
+  - Move navigation menus to yaml which means it is now easier to add new pages.
+  - Add more flexibility to lecture's links
 
 # Demo
-Checkout for a working example at [iust-courses.github.io/ai97](https://iust-courses.github.io/ai97).
+Checkout for a working demo at [kazemnejad.github.io/jekyll-course-website-template/](https://kazemnejad.github.io/jekyll-course-website-template/). You may also want to see this real-world example at [iust-deep-learning.github.io/972](https://iust-deep-learning.github.io/972/) or [iust-courses.github.io/ai97/](https://iust-courses.github.io/ai97/) (Please note the last two examples are using the older version).
 
 # Some Screenshot
 <p float="left">
-<img src="https://raw.githubusercontent.com/kazemnejad/jekyll-course-website-template/master/_images/home_page.jpg" width="400">
-<img src="https://raw.githubusercontent.com/kazemnejad/jekyll-course-website-template/master/_images/schedule_page.jpg" width="400">
+<img src="https://raw.githubusercontent.com/kazemnejad/jekyll-course-website-template/master/_images/screenshots/screen_home.jpg" width="300">
+<img src="https://raw.githubusercontent.com/kazemnejad/jekyll-course-website-template/master/_images/screenshots/screen_schedule.jpg" width="300">
+<img src="https://raw.githubusercontent.com/kazemnejad/jekyll-course-website-template/master/_images/screenshots/screen_lecture.jpg" width="300">
+</p>
+
+<p float="left">
+<img src="https://raw.githubusercontent.com/kazemnejad/jekyll-course-website-template/master/_images/screenshots/screen_assign.jpg" width="300">
+<img src="https://raw.githubusercontent.com/kazemnejad/jekyll-course-website-template/master/_images/screenshots/screen_sample_assign.jpg" width="300">
+<img src="https://raw.githubusercontent.com/kazemnejad/jekyll-course-website-template/master/_images/screenshots/screen_material.jpg" width="300">
 </p>
 
 # Acknowledgement 
