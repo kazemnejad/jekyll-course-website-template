@@ -5,6 +5,6 @@ description: 'Midterm'
 hide_from_announcments: true
 ---
 **Topics:**
-<br> - Topic 1
-<br> - Topic 2
-<br> - Topic 3
+1. Topic 1
+2. Topic 2
+3. Topic 3

@@ -495,3 +495,15 @@ a.tosu {
     font-weight: normal;
     font-family: inherit;
   }
+
+.markdown-content {
+    p,ol {
+        margin-bottom: 3px;
+    }
+
+    li {
+        padding: 0px;
+        display: list-item !important;
+        border-bottom: 0 !important;
+    }
+}
