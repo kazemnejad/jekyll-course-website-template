@@ -1,35 +1,71 @@
 # Features
-- Individual page for assignments, lectures, course material, schedule, final project
-- Auto generated Schedule Page
-- 3 Event type
-- Manual & auto generated announcements (for new lectures and assignments)
-- Support for Persian Calendar
+- Individual page for assignments, lectures, course material, course schedule
+- Auto generated Course schedule Page
+- Auto generated course updates section (for each new lectures and assignments) + custom/manual announcements 
 - Super lightweight 
-- Ready to use in Github Pages
+- Highly customizable
+- Ready to be used in Github Pages
+
+# Change log
+- Version 2.0
+  - New Schedule page with more efficient use of space.
+  - Gregorian calendar is now the default one (English Calendar).
+  - Add customization option to home, assignments, lectures, and schedule pages.
+  - Add support for themes (so you can modify website's look according to your school's brandings)!.
+  - Move navigation menus to yaml which means it is now easier to add new pages.
+  - Add more flexibility to lecture's links
 
 # Demo
-Checkout for a working example at [iust-courses.github.io/ai97](https://iust-courses.github.io/ai97).
+Checkout for a working demo at [kazemnejad.github.io/jekyll-course-website-template/](https://kazemnejad.github.io/jekyll-course-website-template/). You may also want to see this real-world example at [iust-deep-learning.github.io/972](https://iust-deep-learning.github.io/972/) or [iust-courses.github.io/ai97/](https://iust-courses.github.io/ai97/) (Please note the last two examples are using the older version).
 
 # Some Screenshot
 <p float="left">
-<img src="https://raw.githubusercontent.com/kazemnejad/jekyll-course-website-template/master/_images/home_page.jpg" width="400">
-<img src="https://raw.githubusercontent.com/kazemnejad/jekyll-course-website-template/master/_images/schedule_page.jpg" width="400">
+<img src="https://raw.githubusercontent.com/kazemnejad/jekyll-course-website-template/master/_images/screenshots/screen_home.jpg" width="300">
+<img src="https://raw.githubusercontent.com/kazemnejad/jekyll-course-website-template/master/_images/screenshots/screen_schedule.jpg" width="300">
+<img src="https://raw.githubusercontent.com/kazemnejad/jekyll-course-website-template/master/_images/screenshots/screen_lecture.jpg" width="300">
+</p>
+
+<p float="left">
+<img src="https://raw.githubusercontent.com/kazemnejad/jekyll-course-website-template/master/_images/screenshots/screen_assign.jpg" width="300">
+<img src="https://raw.githubusercontent.com/kazemnejad/jekyll-course-website-template/master/_images/screenshots/screen_sample_assign.jpg" width="300">
+<img src="https://raw.githubusercontent.com/kazemnejad/jekyll-course-website-template/master/_images/screenshots/screen_material.jpg" width="300">
 </p>
 
 # Acknowledgement 
 This template is heavily based on [svmiller / course-website](https://github.com/svmiller/course-website).
 
+# How to deploy your own website (on GitHub pages) 
+1. Fork this repository.
+2. Open `_config.yml`.
+   1. Update `url` field according to your GitHub account (e.g., `https://<your-github-username>.github.io/`).
+   2. Update `baseurl` field according to your reporsitory's name (e.g., `/cs101`).
+   3. Commit and push your changes.
+3. Go to your repository's settigns (`https://github.com/<your-github-username>/<your-repo-name>/settings`).
+4. On GitHub Pages section, choose source to be your master branch, and enable Github Pages.
+5. You are now ready to go! Start customizing your website.
 
-# How to use
+Pro Tip: You don't need to clone your repo to update your website. Use GitHub web UI to update its source files, and GitHub will build and deploy your website automatically!
+
+# How to test your website locally
 1. Install Jekyll ([Installation guide](https://jekyllrb.com/docs/installation/))
-3. Install requirements:
-   `gem install jekyll-jalali`
-4. Watch your website while changing: `jekyll serve`
-5. add your content, apply your changes.
-6. build! `jekyll build -d path/to/your/output/dir`
+2. Clone your repo
+3. Watch your website while editing: `bundle exec jekyll serve`
 
-# How to edit website
-There are 6 types of content you can add to the website, each content category has its own template & its own subdirectory. if you follow the templates, All pages will be generated automatically for you including Announcements, Schedule, and Lectures.
+# How to customize
+## Changing the names
+- Open `_config.yml`
+- Update `course_name`, `course_semester`, and `course_description` (this will appear in the home page).
+- Update `schoolname`, `schoolurl`, `twitter_username`, and `address` accordingly.
+- Add more content to your home page: Update `index.md` (it supports Markdown!)
+- Update course staff info at `_data/people.yml` (You may need to upload the profile pics to `_images` folder.
+
+## Change the looks
+- Open `_sass/_user_vars.scss`
+- Select your favorite from the pre-defined themes (comment all other themes, and uncomment your desired one)
+- Here are all themes:
+<img src="https://raw.githubusercontent.com/kazemnejad/jekyll-course-website-template/master/_images/screenshots/themes.png">
+
+- You can also change the color manually to match your branding
 
 ## Lectures
 If you want to add a new lecture, please create an empty file with `.md` postfix in `_lectures/` directory. fill it using below template:
