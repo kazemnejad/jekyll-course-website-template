@@ -51,8 +51,21 @@ Pro Tip: You don't need to clone your repo to update your website. Use GitHub we
 2. Clone your repo
 3. Watch your website while editing: `bundle exec jekyll serve`
 
-# How to edit website
-There are 6 types of content you can add to the website, each content category has its own template & its own subdirectory. if you follow the templates, All pages will be generated automatically for you including Announcements, Schedule, and Lectures.
+# How to customize
+## Changing the names
+- Open `_config.yml`
+- Update `course_name`, `course_semester`, and `course_description` (this will appear in the home page).
+- Update `schoolname`, `schoolurl`, `twitter_username`, and `address` accordingly.
+- Add more content to your home page: Update `index.md` (it supports Markdown!)
+- Update course staff info at `_data/people.yml` (You may need to upload the profile pics to `_images` folder.
+
+## Change the looks
+- Open `_sass/_user_vars.scss`
+- Select your favorite from the pre-defined themes (comment all other themes, and uncomment your desired one)
+- Here are all themes:
+<img src="https://raw.githubusercontent.com/kazemnejad/jekyll-course-website-template/master/_images/screenshots/themes.png">
+
+- You can also change the color manually to match your branding
 
 ## Lectures
 If you want to add a new lecture, please create an empty file with `.md` postfix in `_lectures/` directory. fill it using below template:
