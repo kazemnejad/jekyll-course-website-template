@@ -6,6 +6,7 @@
 - Highly customizable
 - Ready to be used in Github Pages
 - Responsive Mobile View
+- Support for Google Analytics
 
 # Change log
 - Version 2.0
@@ -57,6 +58,7 @@ Pro Tip: You don't need to clone your repo to update your website. Use GitHub we
 - Open `_config.yml`
 - Update `course_name`, `course_semester`, and `course_description` (this will appear in the home page).
 - Update `schoolname`, `schoolurl`, `twitter_username`, and `address` accordingly.
+- (Optional) Enter your Google Analytics tracking ID in the `google_analytics` field (Remember to uncomment it).
 - Add more content to your home page: Update `index.md` (it supports Markdown!)
 - Update course staff info at `_data/people.yml` (You may need to upload the profile pics to `_images` folder.
 - (Optional) Open `_data/previous_offering.yml` and update the data if needed.
