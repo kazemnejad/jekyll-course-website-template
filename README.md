@@ -48,6 +48,15 @@ This template is heavily based on [svmiller / course-website](https://github.com
 
 Pro Tip: You don't need to clone your repo to update your website. Use GitHub web UI to update its source files, and GitHub will build and deploy your website automatically!
 
+**Best Practice for managing repositories**: If you plan to use this template for university courses, and the course is offered for multiple semesters/quarters, I suggests you to create a GitHub account or an Organization for it. Then, create new repoository under that account/organization for each semester.
+- Example: 
+  - Course name: CS101
+  - Semester: Fall 2020
+  - School name: CMU
+- => account/org name: `cmu-cs101`
+- => repo name: `fa2020`
+- => website address will be: `https://cmu-cs101.github.io/fa2020/`
+
 # How to test your website locally
 1. Install Jekyll ([Installation guide](https://jekyllrb.com/docs/installation/))
 2. Clone your repo
