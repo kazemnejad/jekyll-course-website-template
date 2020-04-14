@@ -1,6 +1,6 @@
 <div class="col col-1" data-label="Event">Lecture</div>
 <div class="col col-1-2" data-label="Date">
-    {{ include.event.date | jdate: "%Y/%m/%e" }}
+    {{ include.event.date | date: site.dateformat }}
     <br class="date-spliter"/>{{ include.event.date | date: "%A" }}
 </div>
 <div class="col col-2" data-label="Description">

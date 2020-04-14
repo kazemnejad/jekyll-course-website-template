@@ -1,25 +1,24 @@
 # Site settings
-title: Iran University of Science and Technology (IUST)
-course_name: Course Name
+course_name: History of Magic
 course_description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam ornare aliquam mattis. Donec hendrerit sollicitudin urna. Aliquam venenatis rutrum velit, at lobortis dui cursus a. Nam varius metus in turpis maximus, ut rhoncus tellus dictum. In aliquam tortor nec mi dapibus, sit amet vehicula dolor auctor."
-course_semester: "Fall 2050"
+course_semester: "Fall 1998"
 description: |
     Instructor: Alan Turing
 
-message: Register to our Google <a href="https://groups.google.com/forum/#!forum/gp-id">groups page</a> to get course notifications via email.
 baseurl: "/base-url" # the subpath of your site, e.g. /blog/
 url: "http://iust-courses.github.io/" # the base hostname & protocol for your site
 githubdir: "username/repo"
 
 # Author/user information
-email: instructor-last-name@iust.ac.ir
+
+schoolurl: "https://hogwarts.edu"
+schoolname: "Hogwarts"
 twitter_username: username 
-github_username:  username
-authorurl: "http://author-url.com/page"
+
 address: |
-    School of Computer Engineering
-    Iran University of Science and Technology
-    Tehran, Iran
+    School of Witchcraft and Wizardry
+    Hogwarts
+    Scotland
 
 
 # Build settings
@@ -31,6 +30,10 @@ excerpt_separator: "<!--more-->"
 
 include: ['_images', '_css']
 exclude: ['develop']
+
+dateformat: "%m/%d/%Y"
+
+header_color: "#336699"
 
 future: true
 collections:
@@ -53,5 +56,5 @@ defaults:
 
 
 
-plugins:
-    - jekyll-jalali
+# plugins:
+#     - jekyll-feed

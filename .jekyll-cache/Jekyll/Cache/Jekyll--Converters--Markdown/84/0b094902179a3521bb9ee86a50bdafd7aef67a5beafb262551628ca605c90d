@@ -1,0 +1,47 @@
+I"«<p>You can download the lectures here (in PDF format). I will try to upload lectures prior to their corresponding classes.</p>
+
+<ul id="archive">
+
+<li class="archiveposturl" style="background: transparent">
+<div class="lecture-container">
+    
+    <div class="thumbnail">
+      <div class="center-cropped" style="margin-top:5px;margin-bottom:5px;background-image: url('/base-url/static_files/presentations/lec.jpg');">
+        <img src="/base-url/static_files/presentations/lec.jpg" />
+      </div>
+    </div>
+    
+    <div class="content">
+        <span><a href="
+            
+              https://google.com 
+            ">Sample Lecture</a></span><br />
+
+        <strong>tl;dr:</strong> Short text to discribe what this lecture is about.
+        <br />
+        <strong>
+        <div>
+    [<a title="Download slides (pdf)" href="
+    
+      https://google.com 
+    ">slides</a>]
+    
+    [<a title="Download notes (zip)" href="
+    
+      /base-url/static_files/presentations/lec.zip 
+    ">notes</a>]
+    
+    
+    [<a title="Download codes (zip)" href="
+    
+      /base-url/static_files/presentations/code.zip 
+    ">codes</a>]
+    
+</div>
+        </strong>
+    </div>
+</div>
+</li>
+
+</ul>
+:ET

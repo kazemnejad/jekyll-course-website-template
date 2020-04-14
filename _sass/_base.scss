@@ -261,11 +261,11 @@ a.tosu {
 .responsive-table {
 
     li {
-        border-radius: 3px;
-        padding: 25px 30px;
+        // border-radius: 3px;
+        padding: 14px 15px;
         display: flex;
         justify-content: space-between;
-        margin-bottom: 15px;
+        // margin-bottom: 15px;
     }
 
     .raw_li {
@@ -284,7 +284,10 @@ a.tosu {
 
     .table-row {
         background-color: #ffffff;
-        box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.1);
+        border-color: whitesmoke;
+        border-width: 0.1em;
+        border-style: solid;
+        border-bottom: none;
     }
 
     .table-row-assignment {
@@ -404,7 +407,8 @@ a.tosu {
     width: 90px;
     float: left;
     text-align: center;
-    margin: 0px 15px;
+    margin: 0px;
+    margin-right: 40px;
 }
 
 .image--cover {
@@ -431,7 +435,7 @@ a.tosu {
     height: 60px;
     background-repeat: no-repeat;
     overflow: hidden;
-    border: 2px solid #0077CC;
+    border: 2px solid $primary-color;
     border-radius: 5%;
     margin-right: 10px;
     background-position: center;

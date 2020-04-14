@@ -1,8 +1,9 @@
 <ul class="menu">
-    <li><a class="page-link" href="{{ "/" | prepend: site.baseurl }}"><i class="fa fa-home fa-lg"></i> Home</a></li>
-    <li><a class="page-link" href="{{ "/schedule/" | prepend: site.baseurl }}"><i class="fas fa-calendar-alt"></i> Schedule</a></li>
-    <li><a class="page-link" href="{{ "/lectures/" | prepend: site.baseurl }}"><i class="fas fa-book-reader"></i> Lectures</a></li>
-    <li><a class="page-link" href="{{ "/assignments/" | prepend: site.baseurl }}"><i class="fas fa-user-graduate"></i> Assignments</a></li>
-    <li><a class="page-link" href="{{ "/final_project/" | prepend: site.baseurl }}"><i class="fas fa-user-graduate"></i> Final Project</a></li>
-    <li><a class="page-link" href="{{ "/course-materials/" | prepend: site.baseurl }}"><i class="fas fa-book"></i> Course Materials</a></li>
+    {% for item in site.data.nav.items %}
+    <li>
+        <a class="page-link" href="{{ item.url | prepend: site.baseurl }}">
+            <i class="{{ item.icon_class }}"></i> {{ item.name }}
+        </a>
+    </li>
+    {% endfor %}
 </ul>

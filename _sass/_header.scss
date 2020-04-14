@@ -3,12 +3,16 @@
  */
 .site-header {
     border-top: 0px solid $grey-color-dark;
-	border-bottom: 4px solid $clemson-orange;
+	border-bottom: 6px solid $clemson-orange;
     min-height: 56px;
-    background: $clemson-purple;
+    background-color: $clemson-purple;
     // Positioning context for the mobile navigation icon
     position: relative;
+}
 
+.header-texture {
+    opacity: $header-background-opacity;
+    filter: invert($header-background-invert);
 }
 
 .site-title, .site-title a {
@@ -20,10 +24,10 @@
     float: left;
     font-weight: 500;
 		font-family: 'Titillium Web', sans-serif;
-    color: #ffffff;
+    color: $header-text-color;
     &,
     &:visited {
-        color: #ffffff;
+        color: $header-text-color;
     }
     &,
     &:hover {
@@ -37,7 +41,7 @@
 }
 
 .site-nav ul li a {
-	color: #fff;
+	color: $header-text-color;
 }
 
 .site-nav ul {
@@ -70,7 +74,7 @@
 
 .site-nav a {
 	display: block;
-        color: #ffffff;
+        color: $header-text-color;
 }
 
 /* Sub Menu */
@@ -82,7 +86,7 @@
 	letter-spacing: 0;
 	line-height: 1.2em;
 	padding: 4px 10px;
-color: #522d80;
+color: $title-color;
 
 }
 
@@ -156,7 +160,7 @@ z-index:999;
     }
 
     .page-link {
-        color: #ffffff;
+        color: $header-text-color;
     background: $clemson-purple;
         line-height: $base-line-height;
 
@@ -211,6 +215,15 @@ z-index:999;
             padding: 5px 10px;
         }
     }
+}
+
+.schoolname {
+    color: $header-text-color;
+}
+
+.coursesemeter {
+    color: $header-text-color;
+    opacity: 0.9;
 }
 
 
