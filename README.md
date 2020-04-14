@@ -6,7 +6,7 @@
 - Highly customizable
 - Ready to be used in Github Pages
 
-## Change log
+# Change log
 - Version 2.0
   - New Schedule page with more efficient use of space.
   - Gregorian calendar is now the default one (English Calendar).
@@ -34,14 +34,22 @@ Checkout for a working demo at [kazemnejad.github.io/jekyll-course-website-templ
 # Acknowledgement 
 This template is heavily based on [svmiller / course-website](https://github.com/svmiller/course-website).
 
+# How to deploy your own website (on GitHub pages) 
+1. Fork this repository.
+2. Open `_config.yml`.
+   1. Update `url` field according to your GitHub account (e.g., `https://<your-github-username>.github.io/`).
+   2. Update `baseurl` field according to your reporsitory's name (e.g., `/cs101`).
+   3. Commit and push your changes.
+3. Go to your repository's settigns (`https://github.com/<your-github-username>/<your-repo-name>/settings`).
+4. On GitHub Pages section, choose source to be your master branch, and enable Github Pages.
+5. You are now ready to go! Start customizing your website.
 
-# How to use
+Pro Tip: You don't need to clone your repo to update your website. Use GitHub web UI to update its source files, and GitHub will build and deploy your website automatically!
+
+# How to test your website locally
 1. Install Jekyll ([Installation guide](https://jekyllrb.com/docs/installation/))
-3. Install requirements:
-   `gem install jekyll-jalali`
-4. Watch your website while changing: `jekyll serve`
-5. add your content, apply your changes.
-6. build! `jekyll build -d path/to/your/output/dir`
+2. Clone your repo
+3. Watch your website while editing: `bundle exec jekyll serve`
 
 # How to edit website
 There are 6 types of content you can add to the website, each content category has its own template & its own subdirectory. if you follow the templates, All pages will be generated automatically for you including Announcements, Schedule, and Lectures.
