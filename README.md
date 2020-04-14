@@ -59,6 +59,7 @@ Pro Tip: You don't need to clone your repo to update your website. Use GitHub we
 - Update `schoolname`, `schoolurl`, `twitter_username`, and `address` accordingly.
 - Add more content to your home page: Update `index.md` (it supports Markdown!)
 - Update course staff info at `_data/people.yml` (You may need to upload the profile pics to `_images` folder.
+- (Optional) Open `_data/previous_offering.yml` and update the data if needed.
 
 ## Change the looks
 - Open `_sass/_user_vars.scss`
@@ -66,30 +67,15 @@ Pro Tip: You don't need to clone your repo to update your website. Use GitHub we
 - Here are all themes:
 <img src="https://raw.githubusercontent.com/kazemnejad/jekyll-course-website-template/master/_images/screenshots/themes.png">
 
-- You can also change the color manually to match your branding
-
-## Lectures
-If you want to add a new lecture, please create an empty file with `.md` postfix in `_lectures/` directory. fill it using below template:
+- You can also change the colors manually to match your branding
+## Contents
+### Lectures
+To add a new lecture, create an empty file with `.md` postfix in `_lectures/` directory. fill it using below template:
 ```markdown
 ---
 type: lecture
 date: 20xx-xx-xxTx:xx:xx+4:30 
 title: <Title of this lecture>
-
-# optional
-suggested_readings:
-    - title: Readings 1
-      url: http://example.com  # optional attribute 
-    - title: Readings 2
-      url: http://example2.com # optional attribute 
-
-# optional
-# please use /static_files/presentations directory to store slides
-slides: /static_files/presentations/1-Introduction-Fa.pdf
-
-# optional
-# please use /static_files/notes directory to store notes
-notes: /static_files/notes/notes_01.pdf
 
 # optional
 # please use /static_files/notes directory to store notes
@@ -99,22 +85,28 @@ thumbnail: /static_files/path/to/image.jpg
 tldr: "What is AI? How does it impact our lives? The current state of the art."
   
 # optional
-# set it to true if you dont want to this lecture appear in the announcements section
+# set it to true if you dont want this lecture to appear in the updates section
 hide_from_announcments: false
+
+# optional
+links: 
+    - url: /static_files/presentations/lec.zip
+      name: notes
+    - url: /static_files/presentations/code.zip
+      name: codes
+    - url: https://google.com
+      name: slides
+    - url: https://example.com
+      name: other
 ---
+<!-- Other additional contents using markdown -->
+**Suggested Readings:**
+- [Readings 1](http://example.com)
+- [Readings 2](http://example.com)
 ```
 
-## Announcements
-Use `_announcements/` directory to create new Announcement
-```markdown
----
-date: 20xx-xx-xxTx:xx:xx+4:30
----
-<put a short announcement here, you can use all markdown features>
-```
-
-## Assignments 
-Use `_assignments/` directory to create new Assignment
+### Assignments
+To add a new assignments, create an empty file with `.md` postfix in `_assignments/` directory. fill it using below template:
 ```markdown
 ---
 type: assignment
@@ -133,8 +125,27 @@ attachment: /static_files/assignments/assign_01_attachment.zip
 # optional
 # set it to true if you don't want to this assignment appear in the announcements section
 hide_from_announcments: false
+
+due_event: 
+    type: due
+    date: 2018-11-13T23:59:00+3:30
+    description: 'Assignment #1 due'
 ---
+<!-- Other additional contents using markdown -->
 ```
+
+## Announcements
+Use `_announcements/` directory to create new Announcement
+```markdown
+---
+date: 20xx-xx-xxTx:xx:xx+4:30
+---
+<put a short announcement here, you can use all markdown features>
+```
+
+## Assignments 
+Use `_assignments/` directory to create new Assignment
+
 
 ## Dues & Deadlines
 Use `_events/` directory to add new Deadline, use `type: due`
