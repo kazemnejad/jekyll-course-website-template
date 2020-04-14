@@ -1,10 +1,19 @@
-instructor:
-  name: Alan Turing
-  profile_pic: /_images/pp/inst.jpg
+instructors:
+  - name: Albus Dumbledore
+    profile_pic: /_images/pp/dumbledore.jpg
+    webpage: https://en.wikipedia.org/wiki/Albus_Dumbledore
+  - name: Minerva McGonagall
+    profile_pic: /_images/pp/mcgonagall.jpg
 
 teaching_assistants:
-  - name: Nikola tesla
-    profile_pic: /_images/pp/ta01.jpg
+  - name: Harry Potter
+    profile_pic: /_images/pp/potter.jpg
+    webpage: https://en.wikipedia.org/wiki/Harry_Potter_(character)
 
-  - name: Albert Einstein
-    profile_pic: /_images/pp/ta02.jpg
+  - name: Hermione Granger
+    profile_pic: /_images/pp/granger.jpg
+    webpage: https://en.wikipedia.org/wiki/Hermione_Granger
+
+  - name: Ron Weasley
+    profile_pic: /_images/pp/weasley.jpg
+    webpage: https://en.wikipedia.org/wiki/Ron_Weasley

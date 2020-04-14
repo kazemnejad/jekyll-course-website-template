@@ -3,7 +3,8 @@
 ---
 @charset "utf-8";
 
-
+$header-background-invert: 0%;
+@import "user_vars";
 
 // Our variables
 $base-font-family: 'Open Sans', Helvetica, Arial, sans-serif;
@@ -15,10 +16,10 @@ $spacing-unit:     30px;
 
 $text-color:       #111;
 $background-color: #fdfdfd;
-$brand-color:      #0077CC;
+$brand-color:      $primary-color;
 // $gameday-sky: #109dc0;
-$clemson-purple:      #336699;
-$clemson-orange:      #f66733;
+$clemson-purple:      $header-color;
+$clemson-orange:      $accent-color;
 
 
 $grey-color:       #828282;
@@ -52,10 +53,10 @@ $on-laptop:        950px;
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import
         "header",
-	"mobile-header",
+	    "mobile-header",
         "base",
         "layout",
         "syntax-highlighting",
-	"fancy-image"
+	    "fancy-image"
 ;
 

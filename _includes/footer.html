@@ -2,25 +2,16 @@
 
   <div class="wrapper">
 
-<!--     <h2 class="footer-heading">{{ site.title }}</h2> -->
+<!--     <h2 class="footer-heading">{{ site.schoolname }}</h2> -->
          <div class="footer-col-wrapper">
       <div class="footer-col  footer-col-1">
- 
-          <ul class="contact-list">
-          <li><strong>{{ site.title }}</strong></li>
-			<li>{{ site.jobtitle }}</li>
-          <li><a href="mailto:{{ site.email }}">{{ site.email }}</a></li>
-        </ul>
-      </div>
-
-      <div class="footer-col  footer-col-2">
  
 
          <p class="text">
 {{ site.address | newline_to_br  }}
       </div>
 
-      <div class="footer-col  footer-col-3">
+      <div class="footer-col  footer-col-2">
        <ul class="social-media-list">
      
 
@@ -52,10 +43,10 @@
   </li>
 {% endif %}
 
-          {% if site.authorurl %}
+          {% if site.schoolurl %}
   <li>
-    <a href="{{site.authorurl}}">
-      <i class="fas fa-globe" style="color:gray"></i> {{site.authorurl |  remove: "https://" | remove: "http://" | remove: "www." }}
+    <a href="{{site.schoolurl}}">
+      <i class="fas fa-globe" style="color:gray"></i> {{site.schoolurl |  remove: "https://" | remove: "http://" | remove: "www." }}
     </a>
   </li>
 {% endif %}
