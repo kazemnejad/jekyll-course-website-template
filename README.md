@@ -5,6 +5,7 @@
 - Super lightweight 
 - Highly customizable
 - Ready to be used in Github Pages
+- Responsive Mobile View
 
 # Change log
 - Version 2.0
