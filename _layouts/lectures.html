@@ -23,6 +23,13 @@ layout: page
         <strong>
         {% include lecture_links.html lecture=lecture %}
         </strong>
+
+        {% if lecture.content != '' %}
+        <br/>
+        <div class="markdown-content" style="margin-top: 3px;">
+        {{ lecture.content }}
+        </div>
+        {% endif %}
     </div>
 </div>
 </li>
