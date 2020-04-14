@@ -15,6 +15,8 @@ address: |
     Hogwarts
     Scotland
 
+# Set your Google Analytics tracking ID (set up yours at http://www.google.com/analytics/)
+google_analytics: UA-147454932-2
 
 ### Do not change the followings unless you know what you are doing ###
 
