@@ -6,10 +6,8 @@ course_semester: "Fall 1998"
 baseurl: "/jekyll-course-website-template" # the subpath of your site, e.g. /blog/
 url: "http://kazemnejad.github.io/" # the base hostname & protocol for your site
 
-# Author/user information
-
-schoolurl: "https://hogwarts.edu"
 schoolname: "Hogwarts"
+schoolurl: "https://hogwarts.edu"
 twitter_username: username 
 
 address: |
@@ -17,6 +15,8 @@ address: |
     Hogwarts
     Scotland
 
+
+### Do not change the followings unless you know what you are doing ###
 
 # Build settings
 markdown: kramdown
@@ -29,8 +29,6 @@ include: ['_images', '_css']
 exclude: ['develop']
 
 dateformat: "%m/%d/%Y"
-
-header_color: "#336699"
 
 future: true
 collections:
@@ -50,8 +48,3 @@ defaults:
       type: "assignments"
     values:
       layout: "assignment"
-
-
-
-# plugins:
-#     - jekyll-feed
