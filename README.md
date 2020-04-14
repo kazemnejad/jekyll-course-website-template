@@ -19,7 +19,7 @@
 # Demo
 Checkout for a working demo at [kazemnejad.github.io/jekyll-course-website-template/](https://kazemnejad.github.io/jekyll-course-website-template/). You may also want to see this real-world example at [iust-deep-learning.github.io/972](https://iust-deep-learning.github.io/972/) or [iust-courses.github.io/ai97/](https://iust-courses.github.io/ai97/) (Please note the last two examples are using the older version).
 
-# Some Screenshot
+# Some Screenshots
 <p float="left">
 <img src="https://raw.githubusercontent.com/kazemnejad/jekyll-course-website-template/master/_images/screenshots/screen_home.jpg" width="300">
 <img src="https://raw.githubusercontent.com/kazemnejad/jekyll-course-website-template/master/_images/screenshots/screen_schedule.jpg" width="300">
@@ -111,7 +111,7 @@ To add a new assignments, create an empty file with `.md` postfix in `_assignmen
 ---
 type: assignment
 date: 20xx-xx-xxTx:xx:xx+4:30
-title: <Assignment title (e.x. Assignment #1>
+title: <Assignment title (e.g. Assignment #1>
 
 # optional 
 pdf: /static_files/assignments/assign_01.pdf
@@ -140,7 +140,7 @@ Use `_events/` directory to add new a deadline, use `type: due`. These events wi
 ---
 type: due
 date: 20xx-xx-xxTx:xx:xx+4:30
-description: <Description of deadline (e.x. 'Assignment #1 due')>
+description: <Description of deadline (e.g. 'Final report due')>
 
 # optional
 # set it to true if you don't want this event to appear in the announcements section
@@ -154,7 +154,7 @@ Use `_events/` directory to add new Exam alert, use `type: exam`. These events w
 ---
 type: exam
 date: 20xx-xx-xxTx:xx:xx+4:30
-description: <Description of the exam (e.x. 'The midterm exam')>
+description: <Description of the exam (e.g. 'The midterm exam')>
 
 # optional
 # set it to true if you don't want to this event appear in the announcements section
@@ -163,7 +163,7 @@ hide_from_announcments: false
 ```
 
 ### Custom Events
-Use `_events/` directory to add new Exam alert, use `type: exam`. These events will apear at the schedule page.
+Use `_events/` directory to add new custom events, use `type: raw_event`. These events will apear at the schedule page.
 ```markdown
 ---
 type: raw_event
@@ -195,4 +195,22 @@ date: 20xx-xx-xxTx:xx:xx+4:30
 <put a short announcement here, you can use all markdown features>
 ```
 
+## Advanced Customization
+You can add custom contents to each section (lectures, assignments, schedule, materials, and project)
+- Lectures: Edit `lectures.md`
+- Assignments: Edit `assignments.md`
+- Schedule: Edit `schedule.md`
+- Materials: Edit `materials.md`
+- Project: Edit `project.md`
+
+Additionally, you can update navigation menus (the menu at the top of the website) by editing `_data/nav.yml`
+
+To add new section, add new navigation menu. Then create a new file in website's directory using the following template:
+```markdown
+---
+layout: page
+title: Page Title
+permalink: /page-address/
+---
+```
 
