@@ -113,42 +113,29 @@ type: assignment
 date: 20xx-xx-xxTx:xx:xx+4:30
 title: <Assignment title (e.x. Assignment #1>
 
-# optinal
+# optional 
 pdf: /static_files/assignments/assign_01.pdf
 
-# optinal
+# optional
 solutions: /static_files/assignments/assign_01_solutions.pdf
 
 # optional
 attachment: /static_files/assignments/assign_01_attachment.zip
 
 # optional
-# set it to true if you don't want to this assignment appear in the announcements section
+# set it to true if you don't want this assignment to appear in the announcements section
 hide_from_announcments: false
 
 due_event: 
     type: due
-    date: 2018-11-13T23:59:00+3:30
+    date: 20xx-xx-xxTx:xx:xx+4:30
     description: 'Assignment #1 due'
 ---
 <!-- Other additional contents using markdown -->
 ```
 
-## Announcements
-Use `_announcements/` directory to create new Announcement
-```markdown
----
-date: 20xx-xx-xxTx:xx:xx+4:30
----
-<put a short announcement here, you can use all markdown features>
-```
-
-## Assignments 
-Use `_assignments/` directory to create new Assignment
-
-
-## Dues & Deadlines
-Use `_events/` directory to add new Deadline, use `type: due`
+### Dues & Deadlines
+Use `_events/` directory to add new a deadline, use `type: due`. These events will apear at the schedule page.
 ```markdown
 ---
 type: due
@@ -156,13 +143,13 @@ date: 20xx-xx-xxTx:xx:xx+4:30
 description: <Description of deadline (e.x. 'Assignment #1 due')>
 
 # optional
-# set it to true if you don't want to this event appear in the announcements section
+# set it to true if you don't want this event to appear in the announcements section
 hide_from_announcments: false
 ---
 ```
 
-## Exams
-Use `_events/` directory to add new Exam alert, use `type: exam`
+### Exams
+Use `_events/` directory to add new Exam alert, use `type: exam`. These events will apear at the schedule page.
 ```markdown
 ---
 type: exam
@@ -175,8 +162,8 @@ hide_from_announcments: false
 ---
 ```
 
-## Custom Events
-Use `_events/` directory to add new Exam alert, use `type: exam`
+### Custom Events
+Use `_events/` directory to add new Exam alert, use `type: exam`. These events will apear at the schedule page.
 ```markdown
 ---
 type: raw_event
@@ -189,11 +176,23 @@ description: <Event description>
 hide_time: false
 
 # optional
-# set it to true if you don't want to this event appear in the announcements section
+# set it to true if you don't want this event appear to in the announcements section
 hide_from_announcments: false
 ---
 <!-- you can create custom content using markdown. this section will be placed in "Course Materials (in schedule section)" -->
 ## Hello
 this is a custom event with `code` 
 ```
+
+
+### Updates/Announcements
+All contents here appear in at the home page
+Use `_announcements/` directory to create new Announcement
+```markdown
+---
+date: 20xx-xx-xxTx:xx:xx+4:30
+---
+<put a short announcement here, you can use all markdown features>
+```
+
 
