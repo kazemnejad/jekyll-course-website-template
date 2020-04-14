@@ -205,7 +205,7 @@ You can add custom contents to each section (lectures, assignments, schedule, ma
 
 Additionally, you can update navigation menus (the menu at the top of the website) by editing `_data/nav.yml`
 
-To add new section, add new navigation menu. Then create a new file in website's directory using the following template:
+To add new section, add new navigation menu. Then create a new file in website's root directory using the following template:
 ```markdown
 ---
 layout: page
