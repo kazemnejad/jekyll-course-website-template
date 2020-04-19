@@ -12,9 +12,9 @@
 - Version 2.0
   - New Schedule page with more efficient use of space.
   - Gregorian calendar is now the default one (English Calendar).
-  - Add customization option to home, assignments, lectures, and schedule pages.
-  - Add support for themes (so you can modify website's look according to your school's brandings)!.
-  - Move navigation menus to yaml which means it is now easier to add new pages.
+  - Add customization options to home, assignments, lectures, and schedule pages.
+  - Add support for themes (so you can modify the website's look according to your school's brandings)!.
+  - Move navigation menus to YAML which means it is now easier to add new pages.
   - Add more flexibility to lecture's links
 
 # Demo
