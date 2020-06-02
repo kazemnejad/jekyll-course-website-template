@@ -6,14 +6,15 @@
 - Highly customizable
 - Ready to be used in Github Pages
 - Responsive Mobile View
+- Support for Google Analytics
 
 # Change log
 - Version 2.0
   - New Schedule page with more efficient use of space.
   - Gregorian calendar is now the default one (English Calendar).
-  - Add customization option to home, assignments, lectures, and schedule pages.
-  - Add support for themes (so you can modify website's look according to your school's brandings)!.
-  - Move navigation menus to yaml which means it is now easier to add new pages.
+  - Add customization options to home, assignments, lectures, and schedule pages.
+  - Add support for themes (so you can modify the website's look according to your school's brandings)!.
+  - Move navigation menus to YAML which means it is now easier to add new pages.
   - Add more flexibility to lecture's links
 
 # Demo
@@ -47,6 +48,15 @@ This template is heavily based on [svmiller / course-website](https://github.com
 
 Pro Tip: You don't need to clone your repo to update your website. Use GitHub web UI to update its source files, and GitHub will build and deploy your website automatically!
 
+**Best Practice for managing repositories**: If you plan to use this template for university courses, and the course is offered for multiple semesters/quarters, I suggests you to create a GitHub account or an Organization for it. Then, create new repoository under that account/organization for each semester.
+- Example: 
+  - Course name: CS101
+  - Semester: Fall 2020
+  - School name: CMU
+- => account/org name: `cmu-cs101`
+- => repo name: `fa2020`
+- => website address will be: `https://cmu-cs101.github.io/fa2020/`
+
 # How to test your website locally
 1. Install Jekyll ([Installation guide](https://jekyllrb.com/docs/installation/))
 2. Clone your repo
@@ -57,6 +67,7 @@ Pro Tip: You don't need to clone your repo to update your website. Use GitHub we
 - Open `_config.yml`
 - Update `course_name`, `course_semester`, and `course_description` (this will appear in the home page).
 - Update `schoolname`, `schoolurl`, `twitter_username`, and `address` accordingly.
+- (Optional) Enter your Google Analytics tracking ID in the `google_analytics` field (Remember to uncomment it).
 - Add more content to your home page: Update `index.md` (it supports Markdown!)
 - Update course staff info at `_data/people.yml` (You may need to upload the profile pics to `_images` folder.
 - (Optional) Open `_data/previous_offering.yml` and update the data if needed.
