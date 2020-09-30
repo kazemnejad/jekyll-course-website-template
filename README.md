@@ -1,3 +1,5 @@
+# Readme #
+
 # Features
 - Individual page for assignments, lectures, course material, course schedule
 - Auto generated Course schedule Page
