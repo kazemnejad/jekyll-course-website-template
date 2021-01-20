@@ -1,6 +1,6 @@
 # Site settings
 course_name: Deep Learning for Engineers
-course_description: "This course provides an introduction to deep learning. We will learn about the basics of deep neural networks, and their applications to different tasks in engineering. Students will be able to apply deep learning to a variety of artificial intelligence tasks pertinent to different engineering problems. Applications of deep learning in Mechanical, chemical, biological, Electrical and material engineering will be discussed."
+course_description: "This course provides an introduction to deep learning. We will learn about the basics of deep neural networks, and their applications to different tasks in engineering. Students will be able to apply deep learning to a variety of artificial intelligence tasks pertinent to different engineering problems. Applications of deep learning in mechanical, chemical, biological, electrical, and material engineering will be discussed."
 course_semester: "Spring 2021"
 
 baseurl: "/24789spring21" # the subpath of your site, e.g. /blog/
