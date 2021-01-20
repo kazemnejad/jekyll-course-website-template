@@ -1,19 +1,20 @@
 # Site settings
-course_name: History of Magic
-course_description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam ornare aliquam mattis. Donec hendrerit sollicitudin urna. Aliquam venenatis rutrum velit, at lobortis dui cursus a. Nam varius metus in turpis maximus, ut rhoncus tellus dictum. In aliquam tortor nec mi dapibus, sit amet vehicula dolor auctor."
-course_semester: "Fall 1998"
+course_name: Deep Learning for Engineers
+course_description: "This course provides an introduction to deep learning. We will learn about the basics of deep neural networks, and their applications to different tasks in engineering. Students will be able to apply deep learning to a variety of artificial intelligence tasks pertinent to different engineering problems. Applications of deep learning in Mechanical, chemical, biological, Electrical and material engineering will be discussed."
+course_semester: "Spring 2021"
 
-baseurl: "/jekyll-course-website-template" # the subpath of your site, e.g. /blog/
-url: "http://kazemnejad.github.io/" # the base hostname & protocol for your site
+baseurl: "/24789spring21" # the subpath of your site, e.g. /blog/
+url: "https://baratilab.github.io/" # the base hostname & protocol for your site
 
-schoolname: "Hogwarts"
-schoolurl: "https://hogwarts.edu"
-twitter_username: username 
+schoolname: "Carnegie Mellon University"
+# schoolurl: "https://www.meche.engineering.cmu.edu"
+# twitter_username: AmirBaratiF 
 
 address: |
-    School of Witchcraft and Wizardry
-    Hogwarts
-    Scotland
+    Website maintained by <a href="https://linkedin.com/in/yuyangwang-1995">Yuyang Wang</a>. Powered by <a href="https://jekyllrb.com/">Jekyll</a> with <a href="https://github.com/kazemnejad/jekyll-course-website-template">jekyll-course-website-template</a>. Hosted by <a href="https://pages.github.com/">GitHub Pages</a>.<br \>
+    Department of Mechanical Engineering
+    Carnegie Mellon University
+    Pittsburgh, PA 15213, USA
 
 # Set your Google Analytics tracking ID (set up yours at http://www.google.com/analytics/)
 # google_analytics: UA-XXXXXXXX-X
