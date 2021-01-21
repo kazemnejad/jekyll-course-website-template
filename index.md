@@ -22,4 +22,5 @@ layout: home
 - Yuyang Wang: TBD 
 - Lalit Ghule: TBD 
 - Yihe Hua: TBD
+- Ruchit Doshi: TBD
 

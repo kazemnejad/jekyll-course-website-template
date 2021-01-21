@@ -18,7 +18,7 @@ This course provides an introduction to deep learning. We will learn about the b
 - Yuyang Wang: TBD
 - Lalit Ghule: TBD
 - Yihe Hua: TBD
-
+- Ruchit Doshi: TBD
 
 ## Textbooks and Readings
 
