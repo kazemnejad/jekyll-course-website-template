@@ -23,4 +23,5 @@ layout: home
 - Lalit Ghule: TBD 
 - Yihe Hua: TBD
 - Ruchit Doshi: TBD
+- Ayush Raina: TBD
 

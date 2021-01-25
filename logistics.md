@@ -6,7 +6,7 @@ permalink: /logistics/
 
 ## Class Time and Location
 
-Dr. Barati Farimani: Tuesdays & Thursdays, 6:00-7:20 pm
+Dr. Barati Farimani: Tuesdays & Thursdays, 6:00-7:20 pm (online via Zoom)
 
 ## Course Description:
 
@@ -14,11 +14,12 @@ This course provides an introduction to deep learning. We will learn about the b
 
 ## Office hours
 
-- Dr. Barati Farimani: Tuesdays, 1:30-3:00 pm
+- Dr. Amir Barati Farimani: TBD
 - Yuyang Wang: TBD
 - Lalit Ghule: TBD
 - Yihe Hua: TBD
 - Ruchit Doshi: TBD
+- Ayush Raina: TBD
 
 ## Textbooks and Readings
 
