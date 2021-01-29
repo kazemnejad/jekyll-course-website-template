@@ -11,6 +11,7 @@ links:
       name: codes
     - url: https://google.com
       name: slides
+hide_from_announcments: true
 ---
 **Suggested Readings:**
 - [Readings 1](http://example.com)
