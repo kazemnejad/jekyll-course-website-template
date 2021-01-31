@@ -5,10 +5,10 @@ title: 'Assignment #1 - Sample Assignment'
 pdf: /static_files/assignments/asg.pdf
 attachment: /static_files/assignments/asg.zip
 solutions: /static_files/assignments/asg_solutions.pdf
-due_event: 
-    type: due
-    date: 2018-11-13T23:59:00+3:30
-    description: 'Assignment #1 due'
+due_event:
+type: due
+date: 2018-11-13T23:59:00+3:30
+description: 'Assignment #1 due'
 hide_from_announcments: true
 ---
 This is a sample assignment.
