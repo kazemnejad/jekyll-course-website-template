@@ -11,7 +11,12 @@ layout: default
 
     <h2>Course Description</h2>
     <p>{{ site.course_description }}</p>
-    
+
+<!--    {{ content }}-->
+
+    <h2>Prerequisite</h2>
+    <p>{{ site.prereq_know }}</p>
+
     {{ content }}
 
     {% if site.data.previous_offering and site.data.previous_offering.offerings and site.data.previous_offering.offerings.size > 0 %}
