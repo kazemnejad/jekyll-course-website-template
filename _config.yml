@@ -1,6 +1,7 @@
 # Site settings
 course_name: 16-726 Learning-Based Image Synthesis
 course_description: "This course introduces machine learning methods for image and video synthesis. The objectives of synthesis research vary from modeling statistical distributions of visual data, through realistic picture-perfect recreations of the world in graphics, and all the way to providing interactive tools for artistic expression. Key machine learning algorithms will be presented, ranging from classical learning methods (e.g., nearest neighbor, PCA, Markov Random Fields) to deep learning models (e.g., ConvNets, deep generative models, such as GANs and VAEs). We will also introduce image and video forensics methods for detecting synthetic content. In this class, students will learn to build practical applications and create new visual effects using their own photos and videos."
+prereq_know: "This course requires familiarity with basic concepts of computer vision/graphics/image processing. Some knowledge of machine learning will also be helpful."
 course_semester: "Spring 2021"
 
 baseurl: "" # the subpath of your site, e.g. /blog/
