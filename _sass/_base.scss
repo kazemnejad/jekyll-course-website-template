@@ -429,11 +429,11 @@ a.tosu {
 }
 
 .center-cropped {
-    width: 100px;
-    height: 60px;
+    width: 150px;
+    height: 90px;
     background-repeat: no-repeat;
     overflow: hidden;
-    border: 2px solid $primary-color;
+    border: 1px solid $primary-color;
     border-radius: 5%;
     margin-right: 10px;
     background-position: center;
@@ -460,7 +460,7 @@ a.tosu {
     padding-bottom: 10px;
     
     .thumbnail {
-      width: 120px;
+      width: 180px;
     }
     
     .content {
