@@ -5,9 +5,6 @@
 </div>
 <div class="col col-2" data-label="Description">
     {{ include.event.title }}
-    <div class="schedule-lecture-links">
-    {% include lecture_links.html lecture=include.event %}
-    </div>
 </div>
 <div class="col col-4 markdown-content" data-label="Course Material">
     <!-- {% if include.event.suggested_readings %}
@@ -20,6 +17,9 @@
         {% endfor %}
     </ul>
     {% endif %} -->
+    <div class="schedule-lecture-links">
+        {% include lecture_links.html lecture=include.event %}
+    </div>
     {% if include.event.content != '' %}
     {{ event.content }}
     {% endif %}

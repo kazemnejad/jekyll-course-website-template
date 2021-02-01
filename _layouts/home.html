@@ -4,7 +4,10 @@ layout: default
 
 <div class="home">
 
-    <h1>{{ site.course_name }} <span style="font-size: 20px;color: #0006;">/ {{ site.course_semester }} </span></h1>
+    <h1>{{ site.course_name }} <span style="font-size: 20px;color: #0006;">/ {{ site.course_semester }} </span>    </h1>
+
+    <p>{{ site.course_time }}</p>
+    <p>{{ site.course_location }}</p>
 
     {% include announcements.html %}
     <br />
