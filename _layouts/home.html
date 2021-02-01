@@ -9,8 +9,6 @@ layout: default
     <p>{{ site.course_time }}</p>
     <p>{{ site.course_location }}</p>
 
-    {% include announcements.html %}
-    <br />
     <img src="https://taesung.me/SwappingAutoencoder/index_files/horseshoe_bend_smaller.gif" alt="Horshoe Bend">
 
     <h2>Course Description</h2>
@@ -32,7 +30,9 @@ layout: default
     </ul>
     {% endif %}
 
-    <br>
+    {% include announcements.html %}
+    <br />
+
     <div>
         <div style="width:35%; float: left">
             <!-- <h2>Instructors</h2> -->
