@@ -6,15 +6,8 @@ permalink: /materials/
 
 {% include image.html url="/_images/cover2.jpg" width=175 align="right" %}
 
-## Book
+## Books
 
-Alan Turing and Noam Chomsky: Very Famous Book
+["Computer Vision: Algorithms and Applications"](https://szeliski.org/Book), Richard Szeliski, 2010
 
-## Additional Course Materials
-
-* If you are not familiar with Python programming, use any online tutorial to get a handle of it.
-* [Material #1](http://www.example.com/): how a computer chess player thinks!
-* [Material #2](http://www.example.com/): how a computer chess player thinks!
-* [Material #3](http://www.example.com/): how a computer chess player thinks!
-* [Material #4](http://www.example.com/): how a computer chess player thinks!
-* [Material #5](http://www.example.com/): how a computer chess player thinks!
+["Deep Learning"](https://www.deeplearningbook.org), Ian Goodfellow, Yoshua Bengio, and Aaron Courville, 2016
