@@ -15,10 +15,6 @@ items:
   name: Assignments
   icon_class: fas fa-user-graduate
 
-- url: /project/
-  name: Project
-  icon_class: fas fa-user-graduate
-
 - url: /materials/
   name: Materials
   icon_class: fas fa-book
