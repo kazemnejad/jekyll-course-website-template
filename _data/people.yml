@@ -7,8 +7,10 @@ instructors:
 teaching_assistants:
   - name: Viraj Mehta
     profile_pic: /_images/pp/viraj.jpg
+    webpage: http://www.virajrmehta.com/
     email: viraj at cs.cmu.edu
 
   - name: Yufei Ye
     profile_pic: /_images/pp/yufei.jpg
+    webpage: https://judyye.github.io/
     email: yufeiy2 at andrew.cmu.edu
