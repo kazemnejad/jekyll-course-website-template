@@ -19,8 +19,8 @@ layout: page
         <span >{{ lecture.date | date: site.dateformat }}</span>
         <span style="font-weight: bold;">{{ lecture.title }}</span>
 
-        {% if lecture.thumbnail %}
-        <strong>tl;dr:</strong> {{ lecture.tldr }}
+        {% if lecture.tldr %}
+        <br><strong>tl;dr:</strong> {{ lecture.tldr }}
         {% endif %}
         <strong>{% include lecture_links.html lecture=lecture %}
         </strong>
