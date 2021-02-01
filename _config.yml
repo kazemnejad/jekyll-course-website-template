@@ -1,8 +1,12 @@
 # Site settings
 course_name: 16-726 Learning-Based Image Synthesis
 course_description: "This course introduces machine learning methods for image and video synthesis. The objectives of synthesis research vary from modeling statistical distributions of visual data, through realistic picture-perfect recreations of the world in graphics, and all the way to providing interactive tools for artistic expression. Key machine learning algorithms will be presented, ranging from classical learning methods (e.g., nearest neighbor, PCA, Markov Random Fields) to deep learning models (e.g., ConvNets, deep generative models, such as GANs and VAEs). We will also introduce image and video forensics methods for detecting synthetic content. In this class, students will learn to build practical applications and create new visual effects using their own photos and videos."
-prereq_know: "This course requires familiarity with basic concepts of computer vision/graphics/image processing. Some knowledge of machine learning will also be helpful."
+prereq_know: "This course requires familiarity with basic concepts of computer vision/graphics/image processing
+              (16385 or 15462 or 15463 or 16720 or 18793). Some knowledge of machine learning (10301 or
+              10315 or 10601 or 10606 or 10607 or 10701) will also be helpful."
 course_semester: "Spring 2021"
+course_time: "Time: Mondays, Wednesdays 4:00 pm - 5:20 pm ET"
+course_location: "Location: remote-only (see Canvas for Zoom links)"
 
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://learning-image-synthesis.github.io/" # the base hostname & protocol for your site

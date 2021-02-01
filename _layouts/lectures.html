@@ -16,12 +16,13 @@ layout: page
     </div>
     {% endif %}
     <div class="content">
-        <span style="font-weight: bold;">{{ lecture.title }}</span><br>
+        <span >{{ lecture.date | date: site.dateformat }}</span>
+        <span style="font-weight: bold;">{{ lecture.title }}</span>
 
+        {% if lecture.thumbnail %}
         <strong>tl;dr:</strong> {{ lecture.tldr }}
-        <br/>
-        <strong>
-        {% include lecture_links.html lecture=lecture %}
+        {% endif %}
+        <strong>{% include lecture_links.html lecture=lecture %}
         </strong>
 
         {% if lecture.content != '' %}
