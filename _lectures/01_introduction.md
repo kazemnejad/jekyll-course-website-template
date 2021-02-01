@@ -5,5 +5,4 @@ title: Introduction, How to Create an Image?
 links: 
     - url: 
       name: notes
-hide_from_announcments: true
 ---
