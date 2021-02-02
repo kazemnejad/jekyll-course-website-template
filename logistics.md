@@ -6,7 +6,7 @@ permalink: /logistics/
 
 ## Class Time and Location
 
-Dr. Barati Farimani: Tuesdays & Thursdays, 6:00-7:20 pm ([Zoom link](https://cmu.zoom.us/j/91091221969?pwd=R0NkNnJvTmEya0VlOEU1ZDM2aGpYdz09))
+Dr. Barati Farimani: Tuesdays & Thursdays, 6:00-7:20 pm
 
 ## Recitation Time and Location
 
@@ -18,12 +18,12 @@ This course provides an introduction to deep learning. We will learn about the b
 
 ## Office Hours
 
-- Dr. Amir Barati Farimani: Tuesdays, 1:00pm ‐ 2:00pm ([Zoom link](https://cmu.zoom.us/j/91091221969?pwd=R0NkNnJvTmEya0VlOEU1ZDM2aGpYdz09))
-- Yuyang Wang: Wednesday, 4:30pm - 5:30pm ([Zoom link](https://cmu.zoom.us/j/95511775425?pwd=VmVnZTJIWWROeTNPdGxMaUI4OWd2QT09))
-- Lalit Ghule: Wednesday, 11:00am - 12:00pm ([Zoom link](https://cmu.zoom.us/j/4162086739))
-- Ruchit Doshi: Thursday, 10:00pm - 11:00pm ([Zoom link](https://cmu.zoom.us/j/5925731167))
-- Yihe Hua: Monday, 2:00pm - 3:00pm ([Zoom link](https://cmu.zoom.us/j/9186895075))
-- Ayush Raina: Thursday, 2:00pm - 3:00pm ([Zoom link](https://cmu.zoom.us/j/4952917565))
+- Dr. Amir Barati Farimani: Tuesdays, 1:00pm ‐ 2:00pm 
+- Yuyang Wang: Wednesday, 4:30pm - 5:30pm 
+- Lalit Ghule: Wednesday, 11:00am - 12:00pm 
+- Ruchit Doshi: Thursday, 10:00pm - 11:00pm 
+- Yihe Hua: Monday, 2:00pm - 3:00pm 
+- Ayush Raina: Thursday, 2:00pm - 3:00pm
 
 ## Textbooks and Readings
 
