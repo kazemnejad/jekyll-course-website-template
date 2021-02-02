@@ -10,7 +10,7 @@ links:
     #   name: notes
     # - url: /static_files/presentations/code.zip
     #   name: codes
-    - url: https://canvas.cmu.edu/
+    - url: https://canvas.cmu.edu/courses/22471
       name: slides
 ---
 <!-- **Suggested Readings:**

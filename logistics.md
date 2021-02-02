@@ -6,7 +6,11 @@ permalink: /logistics/
 
 ## Class Time and Location
 
-Dr. Barati Farimani: Tuesdays & Thursdays, 6:00-7:20 pm (online via Zoom)
+Dr. Barati Farimani: Tuesdays & Thursdays, 6:00-7:20 pm ([Zoom link](https://cmu.zoom.us/j/91091221969?pwd=R0NkNnJvTmEya0VlOEU1ZDM2aGpYdz09))
+
+## Recitation Time and Location
+
+TAs: Friday, 4:30pm - 5:30pm (Zoom link will be posted on [Piazza](https://piazza.com/class/kkoas32qf361lq?cid=6))
 
 ## Course Description:
 
@@ -14,13 +18,13 @@ This course provides an introduction to deep learning. We will learn about the b
 
 ## Office Hours
 
-- Dr. Amir Barati Farimani: TBD
-- Yuyang Wang: TBD
-- Lalit Ghule: TBD
-- Yihe Hua: TBD
-- Ruchit Doshi: TBD
-- Ayush Raina: TBD
-
+- Dr. Amir Barati Farimani: Tuesdays, 1:00pm ‐ 2:00pm ([Zoom link](https://cmu.zoom.us/j/91091221969?pwd=R0NkNnJvTmEya0VlOEU1ZDM2aGpYdz09))
+- Yuyang Wang: Wednesday, 4:30pm - 5:30pm ([Zoom link](https://cmu.zoom.us/j/95511775425?pwd=VmVnZTJIWWROeTNPdGxMaUI4OWd2QT09))
+- Lalit Ghule: Wednesday, 11:00am - 12:00pm ([Zoom link](https://cmu.zoom.us/j/4162086739))
+- Yihe Hua: Thursday, 10:00pm - 11:00pm ([Zoom link](https://cmu.zoom.us/j/5925731167))
+- Ruchit Doshi: Monday, 2:00pm - 3:00pm ([Zoom link](https://cmu.zoom.us/j/9186895075))
+- Ayush Raina: Thursday, 2:00pm - 3:00pm ([Zoom link](https://cmu.zoom.us/j/4952917565))
+- 
 ## Textbooks and Readings
 
 The lectures in this course were compiled from different sources and naturally there is no single textbook that covers all of the topics we will discuss in this course. The following textbook are recommended for the course subjects:
@@ -45,9 +49,7 @@ For longer assignments, you will be given two weeks. You should take advantage o
 
 We will use the Python programming language for all assignments in this course. Python is a great general-purpose programming language on its own, but with the help of a few popular libraries (numpy, scipy, matplotlib) it becomes a powerful environment for scientific computing.
 
-We expect that many of you will have some experience with Python and numpy; for the rest of you, we will provide a quick crash course both on the Python programming language and on the use of Python for scientific computing.
-
-To practice more with Python, numpy and Pytorch, we will assign 5 programming assignments. Submission of these assignments are optional but highly recommended. Correct submission of these assignments will have 5% extra bonus points.
+We expect that many of you will have some experience with Python and its several packages: numpy, pytorch, pytoch geometric, etc., for the rest of you, we will provide a quick crash course both on the Python programming language and on the use of Python for scientific computing.
 
 ## Grading:
 

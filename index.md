@@ -15,13 +15,16 @@ layout: home
 - Solving Engineering problems using Deep Learning
 
 ## Lectures: 
-- Dr. Amir Barati Farimani: Tuesdays & Thursdays, 6:00 ‐7:20 pm
+- Dr. Amir Barati Farimani: Tuesdays & Thursdays, 6:00pm ‐ 7:20pm ([Zoom link](https://cmu.zoom.us/j/91091221969?pwd=R0NkNnJvTmEya0VlOEU1ZDM2aGpYdz09))
+
+## Recitations: 
+- TAs: Friday, 4:30pm - 5:30pm (Zoom link will be posted on [Piazza](https://piazza.com/class/kkoas32qf361lq?cid=6))
 
 ## Office Hours: 
-- Dr. Amir Barati Farimani: TBD
-- Yuyang Wang: TBD 
-- Lalit Ghule: TBD 
-- Yihe Hua: TBD
-- Ruchit Doshi: TBD
-- Ayush Raina: TBD
+- Dr. Amir Barati Farimani: Tuesdays, 1:00pm ‐ 2:00pm ([Zoom link](https://cmu.zoom.us/j/91091221969?pwd=R0NkNnJvTmEya0VlOEU1ZDM2aGpYdz09))
+- Yuyang Wang: Wednesday, 4:30pm - 5:30pm ([Zoom link](https://cmu.zoom.us/j/95511775425?pwd=VmVnZTJIWWROeTNPdGxMaUI4OWd2QT09))
+- Lalit Ghule: Wednesday, 11:00am - 12:00pm ([Zoom link](https://cmu.zoom.us/j/4162086739))
+- Yihe Hua: Thursday, 10:00pm - 11:00pm ([Zoom link](https://cmu.zoom.us/j/5925731167))
+- Ruchit Doshi: Monday, 2:00pm - 3:00pm ([Zoom link](https://cmu.zoom.us/j/9186895075))
+- Ayush Raina: Thursday, 2:00pm - 3:00pm ([Zoom link](https://cmu.zoom.us/j/4952917565))
 
