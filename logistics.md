@@ -21,8 +21,8 @@ This course provides an introduction to deep learning. We will learn about the b
 - Dr. Amir Barati Farimani: Tuesdays, 1:00pm ‐ 2:00pm ([Zoom link](https://cmu.zoom.us/j/91091221969?pwd=R0NkNnJvTmEya0VlOEU1ZDM2aGpYdz09))
 - Yuyang Wang: Wednesday, 4:30pm - 5:30pm ([Zoom link](https://cmu.zoom.us/j/95511775425?pwd=VmVnZTJIWWROeTNPdGxMaUI4OWd2QT09))
 - Lalit Ghule: Wednesday, 11:00am - 12:00pm ([Zoom link](https://cmu.zoom.us/j/4162086739))
-- Yihe Hua: Thursday, 10:00pm - 11:00pm ([Zoom link](https://cmu.zoom.us/j/5925731167))
-- Ruchit Doshi: Monday, 2:00pm - 3:00pm ([Zoom link](https://cmu.zoom.us/j/9186895075))
+- Ruchit Doshi: Thursday, 10:00pm - 11:00pm ([Zoom link](https://cmu.zoom.us/j/5925731167))
+- Yihe Hua: Monday, 2:00pm - 3:00pm ([Zoom link](https://cmu.zoom.us/j/9186895075))
 - Ayush Raina: Thursday, 2:00pm - 3:00pm ([Zoom link](https://cmu.zoom.us/j/4952917565))
 
 ## Textbooks and Readings
