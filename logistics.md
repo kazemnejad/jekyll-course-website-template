@@ -12,7 +12,7 @@ Dr. Barati Farimani: Tuesdays & Thursdays, 6:00-7:20 pm (online via Zoom)
 
 This course provides an introduction to deep learning. We will learn about the basics of deep neural networks, and their applications to different tasks in engineering. Students will be able to apply deep learning to a variety of artificial intelligence tasks pertinent to different engineering problems. Applications of deep learning in Mechanical, chemical, biological, Electrical and material engineering will be discussed.
 
-## Office hours
+## Office Hours
 
 - Dr. Amir Barati Farimani: TBD
 - Yuyang Wang: TBD
