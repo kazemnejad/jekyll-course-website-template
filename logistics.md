@@ -24,7 +24,7 @@ This course provides an introduction to deep learning. We will learn about the b
 - Yihe Hua: Thursday, 10:00pm - 11:00pm ([Zoom link](https://cmu.zoom.us/j/5925731167))
 - Ruchit Doshi: Monday, 2:00pm - 3:00pm ([Zoom link](https://cmu.zoom.us/j/9186895075))
 - Ayush Raina: Thursday, 2:00pm - 3:00pm ([Zoom link](https://cmu.zoom.us/j/4952917565))
-- 
+
 ## Textbooks and Readings
 
 The lectures in this course were compiled from different sources and naturally there is no single textbook that covers all of the topics we will discuss in this course. The following textbook are recommended for the course subjects:
