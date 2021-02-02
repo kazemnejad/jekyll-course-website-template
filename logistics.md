@@ -38,6 +38,9 @@ The lectures in this course were compiled from different sources and naturally t
 - 10-601/10-701: Introduction to Machine Learning (or)
 - 11-785: Introduction to Deep Learning
 
+## Quizzes
+
+The course contains 5 quizzes in total. Quizzes will be posted on Saturday and submitted by Monday midnight. No late submission is accepted for quizzes. Only theoretical and simple calculation questions are included. There will be no programming/coding sections in quizzes. 
 
 ## Assignments
 
