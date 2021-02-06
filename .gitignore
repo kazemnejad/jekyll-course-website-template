@@ -1,4 +1,5 @@
 .sass-cache
 _site
 .idea/
+*.DS_Store
 .jekyll-cache
