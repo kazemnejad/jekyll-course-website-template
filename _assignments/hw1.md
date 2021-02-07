@@ -2,8 +2,8 @@
 type: assignment
 date: 2021-02-10T4:00:00-5:00
 title: 'Assignment #1 - Colorizing the Prokudin-Gorskii Photo Collection'
-thumbnail: /static_files/assignments/hw1/color.jpg
-attachment: /static_files/assignments/asg.zip
+thumbnail: /static_files/assignments/hw1/teaser.jpg
+attachment: https://afs/
 due_event:
     type: due
     date: 2021-02-24T23:59:00-5:00
@@ -11,7 +11,7 @@ due_event:
 hide_from_announcments: true
 ---
 
-{% include image.html url="/static_files/assignments/hw1/color.jpg" width=250 align="center" %}
+{% include image.html url="/static_files/assignments/hw1/teaser.jpg" width=800 align="center" %}
 ## Background
 [Sergei Mikhailovich Prokudin-Gorskii](http://en.wikipedia.org/wiki/Prokudin-Gorskii) (1863-1944) [Сергей Михайлович Прокудин-Горский, to his Russian friends] was a man well ahead of his time. Convinced, as early as 1907, that color photography was the wave of the future, he won Tzar's special permission to travel across the vast Russian Empire and take color photographs of everything he saw including the only color portrait of [Leo Tolstoy](http://en.wikipedia.org/wiki/Leo_Tolstoy). And he really photographed everything: people, buildings, landscapes, railroads, bridges... thousands of color pictures! His idea was simple: record three exposures of every scene onto a glass plate using a red, a green, and a blue filter. Never mind that there was no way to print color photographs until much later -- he envisioned special projectors to be installed in "multimedia" classrooms all across Russia where the children would be able to learn about their vast country. Alas, his plans never materialized: he left Russia in 1918, right after the revolution, never to return again. Luckily, his RGB glass plate negatives, capturing the last years of the Russian Empire, survived and were purchased in 1948 by the Library of Congress. The LoC has recently digitized the negatives and made them available on-line.
 
@@ -28,6 +28,17 @@ The easiest way to align the parts is to exhaustively search over a window of po
 Exhaustive search will become prohibitively expensive if the pixel displacement is too large (which will be the case for high-resolution glass plate scans). In this case, you will need to implement a faster search procedure such as an image pyramid. An image pyramid represents the image at multiple scales (usually scaled by a factor of 2) and the processing is done sequentially starting from the coarsest scale (smallest image) and going down the pyramid, updating your estimate as you go. It is very easy to implement by adding recursive calls to your original single-scale implementation.
 
 Your job will be to implement an algorithm that, given a 3-channel image, produces a color image as output. Implement a simple single-scale version first, using for loops, searching over a user-specified window of displacements. You should pick one of the smaller .jpg images in the directory to test this version of the code. Next, add a coarse-to-fine pyramid speedup to handle large images like the .tiff ones provided in the directory.
+
+## Submission
+Please submit both your code (to Canvas) and a project webpage (to AFS). A general guideline could be found in [Assignment #0](/assignments/hw0).
+
+The project folder `andrewid_web_projX` containing an `index.html` web page file should include the following:
+- Text giving a brief overview of the project, and text describing your approach. If you ran into problems on images, describe how you tried to solve them. The website does not need to be pretty; you just need to explain what you did.
+- The result of your algorithm on all of our example images. List the offsets you calculated. Do not turn in the large .tiff images. Your web page should only display compressed images (e.g. jpg or png or gif if you want to animate something).
+- The result of your algorithm on a few examples of your own choosing, downloaded from the Prokudin-Gorskii collection.
+- If your algorithm failed to align any image, provide a brief explanation of why.
+- Describe any bells and whistles you implemented. For maximum credit, show before and after images.
+- Remember not to use any absolute links to images etc on your computer, as these will not work online. Only use relative links within your folder.
 
 
 ## Bells & Whistles (Extra Credit)
