@@ -5,7 +5,7 @@ title: "Introduction: How to Create an Image?"
 thumbnail: https://www.cs.cmu.edu/~junyanz/imgs/spade.gif
 tldr: "Introduction to the course, how images are created and manipulated by humans and machines"
 links:
-    - url: "/static_files/presentations/01.pdf"
+    - url: "/static_files/presentations/2020_02_01_introduction.pdf"
       name: pdf
     - url: "https://drive.google.com/file/d/1THMMco3N6ffUgdtQU-uQIfX8E8qKefhA/view?usp=sharing"
       name: pptx
