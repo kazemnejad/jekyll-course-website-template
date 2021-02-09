@@ -25,23 +25,27 @@ yye2_code_proj1/
 
 ### Submit your webpage to the class website
 We will use [Andrew File System(AFS)](https://www.cmu.edu/computing/services/comm-collab/collaboration/afs/how-to/index.html) to store and display webpages. Here is a step by step tutorial: 
-1. Place your website under folder `andrewid_web_projX` and zip it. Please make sure that your main report page is called `index.html` so browsers open it automatically.
-1. Remote Copy. Use WinSCP or your favorite scp/ftp tool to copy all your files to your Andrew home directory `scp andrewid_web_projX.zip username@linux.andrew.cmu.edu:/home/username`, where `username` is your Andrew id.
-1. Log in to a linux Andrew machine: `ssh username@linux.andrew.cmu.edu`
-1. File Transfer.  Unzip your website and copy the folder to your project directory: `cp -r andrewid_web_projX/ /afs/andrew.cmu.edu/course/16/726/www/proj/??`. The folder structure should look like this:
-```angular2html
-# suppose your are at /afs/andrew.cmu.edu/course/16/726/www/
-yye2_web_proj1/
-    index.html
-    data/...
-yye2_web_proj2/
-    index.html
-``` 
-Last step, test your page by visiting: `http://www.andrew.cmu.edu/course/16-726/project...
+1. Place your website under folder `projX` and zip it. Please make sure that your main report page is called `index.html` so browsers open it automatically. X is the hw number.
+1. Remote Copy. Use WinSCP or your favorite scp/ftp tool to copy all your files to your Andrew home directory `scp projX.zip username@linux.andrew.cmu.edu:/home/andrew_id/`.
+1. Log in to a Unix Andrew machine: `ssh username@linux.andrew.cmu.edu`
+1. File Transfer.  Unzip your website and copy the folder to your project directory: `cp -r projX/ /afs/andrew.cmu.edu/course/16/726/www/projects/andrew_id/projX`.
+   The folder structure should look like this:
+    ```angular2html
+    # suppose you are at /afs/andrew.cmu.edu/course/16/726/www/projects/andrew_id/
+    proj1/
+        index.html
+        data/...
+    proj2/
+        index.html
+        data/...
+    ```
+1. Publish. The course website needs to be refreshed with your updated files. Do that by going [here](https://www.andrew.cmu.edu/server/publish.html), choosing web pages for a course, and inputing 16-726.
+1. Last step, test your page by visiting: `http://www.andrew.cmu.edu/course/16-726/projects/andrew_id/projX/`.
 `
 
 __FAQs__
-- Remember __NOT to use any absolute links__ to images etc, as these will not work online. __Only use relative links.__
+- Remember __NOT to use any absolute links__ to images etc, as these will not work online. __Only use relative links.__\
+- Note that 16, 726 is connected by `-` in URL while your folder is `16/726/`     
 -   Do not try using WinSCP or similar to copy directly from your laptop to your class project directory as you don't have the credentials.
 - Afs gets unhappy if your quota is full. Run `fs quota` to see the percent used; if it's close to 100 percent, delete things (java and matlab dumps, large tif's...) before trying the copy again.
 - Your project directory is linked to your _Andrew_ id; if you use a CS computer (*.cs.cmu.edu), and run into trouble, try the instructions above, using an Andrew computer to hand in your work.
