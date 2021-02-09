@@ -3,7 +3,7 @@ type: assignment
 date: 2021-02-10T4:00:00-5:00
 title: 'Assignment #1 - Colorizing the Prokudin-Gorskii Photo Collection'
 thumbnail: /static_files/assignments/hw1/teaser.jpg
-attachment: https://afs/
+attachment: http://www.andrew.cmu.edu/course/16-726/projects/handout/proj1/
 due_event:
     type: due
     date: 2021-02-24T23:59:00-5:00
@@ -18,10 +18,10 @@ hide_from_announcments: true
 ## Overview
 The goal of this assignment is to take the digitized Prokudin-Gorskii glass plate images and, using image processing techniques, automatically produce a color image with as few visual artifacts as possible. In order to do this, you will need to extract the three color channel images, place them on top of each other, and align them so that they form a single RGB color image. A cool explanation on how the Library of Congress created the color images on their site is available [here](http://www.loc.gov/exhibits/empire/making.html).
 
-Some starter code is available in Python [here TODO](todo!!); do not feel compelled to use it. We will assume that a simple x,y translation model is sufficient for proper alignment. However, the full-size glass plate images are very large, so your alignment procedure will need to be relatively fast and efficient.
+Some starter code is available in [Python](http://www.andrew.cmu.edu/course/16-726/projects/handout/proj1/main_hw1.py); do not feel compelled to use it. We will assume that a simple x,y translation model is sufficient for proper alignment. However, the full-size glass plate images are very large, so your alignment procedure will need to be relatively fast and efficient.
 
 ## Details
-A few of the digitized glass plate images (both hi-res and low-res versions) will be placed in the following directory (note that the filter order from top to bottom is BGR, not RGB!): [`data/`](TODO DATA). Your program will take a glass plate image as input and produce a single color image as output. The program should divide the image into three equal parts and align the second and the third parts (G and R) to the first (B). For each image, you will need to print the (x,y) displacement vector that was used to align the parts.
+A few of the digitized glass plate images (both hi-res and low-res versions) will be placed in the following directory (note that the filter order from top to bottom is BGR, not RGB!): [`data/`](http://www.andrew.cmu.edu/course/16-726/projects/handout/proj1/data/). Your program will take a glass plate image as input and produce a single color image as output. The program should divide the image into three equal parts and align the second and the third parts (G and R) to the first (B). For each image, you will need to print the (x,y) displacement vector that was used to align the parts.
 
 The easiest way to align the parts is to exhaustively search over a window of possible displacements (say [-15,15] pixels), score each one using some image matching metric, and take the displacement with the best score. There is a number of possible metrics that one could use to score how well the images match. The simplest one is just the L2 norm also known as the Sum of Squared Differences (SSD) distance which is simply sum(sum((image1-image2).^2)) where the sum is taken over the pixel values. Another is normalized cross-correlation (NCC), which is simply a dot product between two normalized vectors: (`image1./||image1||` and `image2./||image2||`). Note that in the case of the Emir of Bukhara (show on right), the images to be matched do not actually have the same brightness values (they are different color channels), so you might have to use a cleverer metric, or different features than the raw pixels.
 
