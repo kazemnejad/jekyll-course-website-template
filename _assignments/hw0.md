@@ -26,19 +26,19 @@ yye2_code_proj1/
 We will use [Andrew File System(AFS)](https://www.cmu.edu/computing/services/comm-collab/collaboration/afs/how-to/index.html) to store and display webpages. Here is a step by step tutorial: 
 1. Place your website under folder `andrewid_web_projX` and zip it. Please make sure that your main report page is called `index.html` so browsers open it automatically.
 1. Remote Copy. Use WinSCP or your favorite scp/ftp tool to copy all your files to your Andrew home directory `scp andrewid_web_projX.zip username@linux.andrew.cmu.edu:/home/username`, where `username` is your Andrew id.
-1. Log in to a linux Andrew machine: `ssh username@linux.andrew.cmu.edu`
-1. Get cs credentials: `aklog cs.cmu.edu`. 
-     1. A tip for sanity check: type `tokens` to see your afs tokens; after running aklog you should see two lines, one for andrew and one for cs.
-1. File Transfer.  Unzip your website and copy the folder to your project directory: `cp -r andrewid_web_projX/ /afs/cs.cmu.edu/academic/class/16726-s21-users/username/projectname/www/`. The folder structure should look like this:
+1. Log in to a Unix Andrew machine: `ssh username@linux.andrew.cmu.edu`
+1. File Transfer.  Unzip your website and copy the folder to your project directory: `cp -r andrewid_web_projX/ /afs/andrew.cmu.edu/course/16/726/www/projects/andrew_id/projn`. The folder structure should look like this:
+1. Publish. The course website needs to be refreshed with your updated files. Do that by going [here](https://www.andrew.cmu.edu/server/publish.html), choosing web pages for a course, and inputing 16-726.
 ```angular2html
-# suppose your are at /afs/cs.cmu.edu/academic/class/16726-s21-users/username/projectname/www/
-yye2_web_proj1/
+# suppose you are at /afs/andrew.cmu.edu/course/16/726/www/projects/andrew_id/
+proj1/
     index.html
     data/...
-yye2_web_proj2/
+proj2/
     index.html
-``` 
-Last step, test your page by visiting: `http://www.cs.cmu.edu/afs/cs.cmu.edu/academic/class/16726-f21-users/username/projectname/www/
+    data/...
+```
+Last step, test your page by visiting: `http://www.andrew.cmu.edu/course/16/726/projects/andrew_id/proj1/`.
 `
 
 __FAQs__
