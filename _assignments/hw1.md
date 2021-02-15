@@ -64,7 +64,6 @@ For all extra credit, be sure to demonstrate on your web page cases where your e
 - The average running time is expected to be less than 1 minute per image. If it takes hours for your program to finish, you should further optimize the code.
 - Try to vectorize/parallelize your code, and avoid using too many FOR loops. (See more details for [Python](https://wiki.python.org/moin/PythonSpeed/PerformanceTips#Loops))
 - For all projects, don't get bogged down tweaking input parameters. Most, but not all images will line up using the same parameters. Your final results should be the product of a fixed set of parameters (if you have free parameters). Don't worry if one or two of the handout images don't align properly using the simpler metrics suggested here.
-- The input images can be in jpg (uint8) or tiff format (uint16), remember to convert all the formats to the same scale (see im2double andim2uint8).
 - The borders of the images will probably hurt your results, try computing your metric on the internal pixels only.
 - Output all of your images to jpg, it'll save you a lot of disk space.
 
