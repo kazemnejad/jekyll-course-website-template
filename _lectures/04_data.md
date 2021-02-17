@@ -5,7 +5,7 @@ title: "Data-Driven Graphics"
 tldr: "Copy-paste smartly from large-scale data to compose an image"
 thumbnail: "/static_files/presentations/0210.png"
 links:
-    - url: "http://www.andrew.cmu.edu/course/16-726/static_files/2020_02_10_data_driven_graphics_v2.pdf"
+    - url: "http://www.andrew.cmu.edu/course/16-726/static_files/2020_02_10_data_driven_graphics_v3.pdf"
       name: pdf
     - url: "http://www.andrew.cmu.edu/course/16-726/static_files/2020_02_10_data_driven_graphics_v2.pptx"
       name: pptx
