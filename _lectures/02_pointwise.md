@@ -13,3 +13,5 @@ links:
 
 hide_from_announcments: true
 ---
+Reading List:
+- [Szeliski Book, Chapters 3.1, 3.2, and 3.5](https://szeliski.org/Book/)
