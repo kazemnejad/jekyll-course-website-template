@@ -14,4 +14,4 @@ hide_from_announcments: true
 
 Reading list:
 - [Szeliski Book, Chapter 3.6](https://szeliski.org/Book/)
-- [Image Deformation using Moving Least Sq1uares, Schaefer et al. in TOG, 2006](https://dl.acm.org/doi/10.1145/1141911.1141920)
+- [Image Deformation using Moving Least Squares, Schaefer et al. in TOG, 2006](https://dl.acm.org/doi/10.1145/1141911.1141920)
