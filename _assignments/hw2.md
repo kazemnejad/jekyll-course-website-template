@@ -17,7 +17,7 @@ This project explores gradient-domain processing, a simple technique with a broa
 
 The primary goal of this assignment is to seamlessly blend an object or texture from a source image into a target image. The simplest method would be to just copy and paste the pixels from one image directly into the other. Unfortunately, this will create very noticeable seams, even if the backgrounds are well-matched. How can we get rid of these seams without doing too much perceptual damage to the source region?`
 
-One way to approach this is to use the Laplacian pyramid blending technique we implemented for the last project (and you will compare your new results to the one you got from Laplacian blending). Here we take a different approach. The insight we will use is that people often care much more about the gradient of an image than the overall intensity.  So we can set up the problem as finding values for the target pixels that maximally preserve the gradient of the source region without changing any of the background pixels.  Note that we are making a deliberate decision here to ignore the overall intensity!  So a green hat could turn red, but it will still look like a hat.
+Here we take the following approach: The insight we will use is that people often care much more about the gradient of an image than the overall intensity.  So we can set up the problem as finding values for the target pixels that maximally preserve the gradient of the source region without changing any of the background pixels.  Note that we are making a deliberate decision here to ignore the overall intensity!  So a green hat could turn red, but it will still look like a hat.
 
 We can formulate our objective as a least squares problem. Given the pixel intensities of the source image "s" and of the target image "t", we want to solve for new intensity values "v" within the source region "S":
 {% include image.html url="/static_files/assignments/hw2/poissonblend_eq.png" height=50 %}
@@ -134,12 +134,10 @@ Many other applications are possible, including non-photorealistic rendering, ed
 ## Grading
 This assignment will be graded out of 100 points, as follows:
 
-- **(20 points)**  Include a brief description of the project
-- **(20 points)**  Finish the toy problem.
-- **(20 points)**  Show your favorite blending result. Include: 1) the source and target image; 2) the blended image with the source pixels directly copied into the target region; 3) the final blend result. Briefly explain how it works, along with anything special that you did or tried. This should be with your own images, not the included samples.
-- **(20 points)** Next, show at least two more results for Poisson blending, including one that doesn't work so well (failure example). Explain any difficulties and possible reasons for bad results.
-- **(20 points)** Choose one pair of images that you blended together using Laplacian pyramid blending in the part 1 and now blend it using the Poisson blending techniques. Display the original images as well as the different blending results (i.e. Laplacian pyramid blending, Poisson Image Blending, Mixed graident blending (If you do the B & W)). Which approach works best for these images? Why? When do you think that one approach would be more appropriate than another?
-
+- **(25 points)**  Include a brief description of the project
+- **(25 points)**  Finish the toy problem.
+- **(25 points)**  Show your favorite blending result. Include: 1) the source and target image; 2) the blended image with the source pixels directly copied into the target region; 3) the final blend result. Briefly explain how it works, along with anything special that you did or tried. This should be with your own images, not the included samples.
+- **(25 points)** Next, show at least two more results for Poisson blending, including one that doesn't work so well (failure example). Explain any difficulties and possible reasons for bad results.
 
 
 ## Materials
