@@ -61,7 +61,7 @@ The first step is to write the objective function as a set of least squares cons
 imh, imw, nb = im.shape
 im2var = np.arange(imh * imw).reshape((imh, imw)).astype(int)
 ```
-<span style="font-size:2;">(If you find that matlab trickery confusing, understand that you could have performed the mapping between pixel and variable number manually each time: e.g. the pixel at s(r,c), uses the variable number (c-1)*imh+r. However, this trick will come in handy for Poisson blending, where the mapping is from an arbitrarily-shaped block of pixels and won't be such a simple function. So it makes sense to understand it now.)</span>
+<span style="font-size:2;">(If you find that trick confusing, understand that you could have performed the mapping between pixel and variable number manually each time: e.g. the pixel at s(r,c), uses the variable number (c-1)*imh+r. However, this trick will come in handy for Poisson blending, where the mapping is from an arbitrarily-shaped block of pixels and won't be such a simple function. So it makes sense to understand it now.)</span>
 
 Then, you can write Objective 1 above as:
 ```
@@ -73,7 +73,7 @@ b[e] = s[y, x + 1] - s[y, x]
 Here, "e" is used as an equation counter. Note that the y-coordinate is the first index as we're assuming row-major images. Objective 2 is similar; add all the y-gradient constraints as more rows to the same matrices A and b.
 
 As another example, Objective 3 above can be written as:
-````
+```
 e += 1
 A[e, im2var[0, 0]] = 1
 b[e] = s[0, 0]
@@ -140,9 +140,14 @@ This assignment will be graded out of 100 points, as follows:
 - **(25 points)** Next, show at least two more results for Poisson blending, including one that doesn't work so well (failure example). Explain any difficulties and possible reasons for bad results.
 
 
+## Some Hints
+- You may use `scipy.sparse` for large sparse matrix computation. 
+- Pay attention to the image intensity scale. Sometimes the bug is in the visualization even though the algorithm is right.
+- Pay attention to the boundary condition.
+
 ## Materials
-- [Images](todo)
-- [Starter Code](todo), including a top-level script and functions to select the source region and align source and target images for blending.
+- [Images](http://www.andrew.cmu.edu/course/16-726/projects/handout/proj2/demo_data.zip)
+- [Starter Code](http://www.andrew.cmu.edu/course/16-726/projects/handout/proj2/starter_code.zip), including a top-level script (`proj2_starter.py`) and functions(`masking_code.py`, `README.md`) to select the source region and align source and target images for blending.
 
 __Acknowledgement__:
 The assignment is credit to [Berkeley CS194-26](https://inst.eecs.berkeley.edu/~cs194-26/fa18/hw/proj3/)  
