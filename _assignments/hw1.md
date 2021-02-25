@@ -60,7 +60,7 @@ For all extra credit, be sure to demonstrate on your web page cases where your e
 
 
 ## Final Advice
-- For the main assignment, you need to implement almost everything from scratch (except the functions for reading, writing, resizing, shifting and displaying images: e.g. imresize, cirshift.). In particular, you are not allowed to use high level functions, such as these for constructing Laplacian/Gaussian pyramids, automatically aligning images, etc. If in doubt, ask on piazza.
+- For the main assignment, you need to implement almost everything from scratch (except the functions for reading, writing, resizing, shifting and displaying images: e.g. imresize, scipy.ndimage.shift, np.roll, etc.). In particular, you are not allowed to use high level functions, such as these for constructing Laplacian/Gaussian pyramids, automatically aligning images, etc. If in doubt, ask on piazza.
 - The average running time is expected to be less than 1 minute per image. If it takes hours for your program to finish, you should further optimize the code.
 - Try to vectorize/parallelize your code, and avoid using too many FOR loops. (See more details for [Python](https://wiki.python.org/moin/PythonSpeed/PerformanceTips#Loops))
 - For all projects, don't get bogged down tweaking input parameters. Most, but not all images will line up using the same parameters. Your final results should be the product of a fixed set of parameters (if you have free parameters). Don't worry if one or two of the handout images don't align properly using the simpler metrics suggested here.
