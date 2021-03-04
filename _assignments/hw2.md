@@ -155,4 +155,4 @@ This assignment will be graded out of 100 points, as follows:
 - [Starter Code](http://www.andrew.cmu.edu/course/16-726/projects/handout/proj2/starter_code.zip), including a top-level script (`proj2_starter.py`) and functions(`masking_code.py`, `README.md`) to select the source region and align source and target images for blending.
 
 __Acknowledgement__:
-The assignment is credit to [Berkeley CS194-26](https://inst.eecs.berkeley.edu/~cs194-26/fa18/hw/proj3/)  
+The assignment is credit to [Berkeley CS194-26](https://inst.eecs.berkeley.edu/~cs194-26/fa18/hw/proj3/). The hybrid images part of the assignment is borrowed from Derek Hoiem's [Computational Photography class](http://courses.engr.illinois.edu/cs498dh/fa2011/). The gradient domain part of this assigment was based on one offered by [Derek Hoiem](http://www.cs.uiuc.edu/homes/dhoiem/) and has also been written up by [James Hays](http://cs.brown.edu/courses/csci1290/asgn/proj2/).
