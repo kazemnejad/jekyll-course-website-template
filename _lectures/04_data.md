@@ -3,7 +3,7 @@ type: lecture
 date: 2021-02-10T16:00:00-05:00
 title: "Data-Driven Graphics"
 tldr: "Copy-paste smartly from large-scale data to compose an image"
-thumbnail: "/static_files/presentations/0210.png"
+thumbnail: "/static_files/lectures/0210.png"
 links:
     - url: "http://www.andrew.cmu.edu/course/16-726/static_files/2020_02_10_data_driven_graphics_v3.pdf"
       name: pdf
