@@ -8,6 +8,7 @@ due_event:
     type: due
     date: 2020-03-10T23:59:00-5:00
     description: 'Assignment #2 due'
+mathjax: true
 hide_from_announcments: true
 ---
 
@@ -20,7 +21,11 @@ The primary goal of this assignment is to seamlessly blend an object or texture 
 Here we take the following approach: The insight we will use is that people often care much more about the gradient of an image than the overall intensity.  So we can set up the problem as finding values for the target pixels that maximally preserve the gradient of the source region without changing any of the background pixels.  Note that we are making a deliberate decision here to ignore the overall intensity!  So a green hat could turn red, but it will still look like a hat.
 
 We can formulate our objective as a least squares problem. Given the pixel intensities of the source image "s" and of the target image "t", we want to solve for new intensity values "v" within the source region "S":
-{% include image.html url="/static_files/assignments/hw2/poissonblend_eq.png" height=50 %}
+
+{% raw %}
+$$ \newcommand{\argmin}{arg min} $$
+$$ \boldsymbol{v} = \argmin_{\boldsymbol{v}}\sum_{i \in S, j \in N_i \cap S}((v_i - v_j) - (s_i - s_j))^2 + \sum_{i\in S, j \in N_i \cap \neg S}((v_i - t_j) - (s_i - s_j))^2. $$
+{% endraw %}
 
 Here, each "i" is a pixel in the source region "S", and each "j" is a 4-neighbor of "i".  Each summation guides the gradient values to match those of the source region.  In the first summation, the gradient is over two variable pixels; in the second, one pixel is variable and one is in the fixed target region.
 
@@ -47,10 +52,10 @@ The implementation for gradient domain processing is not complicated, but it is 
 
 Denote the intensity of the source image at (x, y) as s(x,y) and the values of the image to solve for as v(x,y).  For each pixel, then, we have two objectives:
 
-1. Minimize ( v(x+1,y)-v(x,y) - (s(x+1,y)-s(x,y)) )^2, so the x-gradients of v should closely match the x-gradients of s.
-1. Minimize ( v(x,y+1)-v(x,y) - (s(x,y+1)-s(x,y)) )^2, so the y-gradients of v should closely match the x-gradients of s.
+1. Minimize \\((( v(x+1,y)-v(x,y)) - (s(x+1,y)-s(x,y)) )^2\\), so the x-gradients of v should closely match the x-gradients of s.
+1. Minimize \\((( v(x,y+1)-v(x,y)) - (s(x,y+1)-s(x,y)) )^2\\), so the y-gradients of v should closely match the x-gradients of s.
 Note that these could be solved while adding any constant value to v, so we will add one more objective:
-1. minimize (v(1,1)-s(1,1))^2 | The top left corners of the two images should be the same color |
+1. minimize \\((v(1,1)-s(1,1))^2\\) | The top left corners of the two images should be the same color |
 
 For 20 points, solve this optimization as a least squares problem.  If your solution is correct, then you should recover the original image.
 
@@ -92,7 +97,7 @@ region will be of similar color.
 
 Step 2: Solve the blending constraints.
 
-{% include image.html url="/static_files/assignments/hw2/poissonblend_eq.png" height=50 align="center" %}
+$$\boldsymbol{v} = \argmin_{\boldsymbol{v}} \sum_{i\in S, j\in N_i \cap S}((v_i - v_j) - (s_i - s_j))^2 + \sum_{i \in S, j \in N_i \cap\neg S}((v_i - t_j) - (s_i - s_j))^2$$
 
 Step 3: Copy the solved values v_i into your target image. For RGB
 images, process each channel separately. Show at least three results
@@ -107,8 +112,8 @@ blurred boundaries, etc.).
 
 ### Mixed Gradients (10 pts)
 Follow the same steps as Poisson blending, but use the gradient in source or target with the larger magnitude as the guide, rather than the source gradient:
-{% include image.html url="/static_files/assignments/hw2/textureblend_eq.png" height=50  %}
-Here "d_ij" is the value of the gradient from the source or the target image with larger magnitude,
+$$\boldsymbol{v} = \argmin_{\boldsymbol{v}} \sum_{i \in S, j \in N_i \cap S} ((v_i - v_j) - d_{ij})^2 + \sum_{i \in S, j \in N_i \cap \neg S}((v_i - t_j) - d_{ij})^2.$$
+Here "\\(d_{ij}\\)" is the value of the gradient from the source or the target image with larger magnitude,
 i.e.
 ```
 if abs(s_i - s_j) >= abs (t_i - t_j):
