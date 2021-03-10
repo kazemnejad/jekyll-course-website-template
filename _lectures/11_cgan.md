@@ -10,5 +10,3 @@ links:
     - url: "http://www.andrew.cmu.edu/course/16-726/static_files/2021_03_10_cGANs_s_v2.pdf"
       name: pdf
 ---
-Reading List:
-    - [
