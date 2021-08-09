@@ -6,9 +6,9 @@ course_semester: "Aug-Dec 2021"
 baseurl: "/dlc" # the subpath of your site, e.g. /blog/
 url: "http://kmopuri.github.io/" # the base hostname & protocol for your site
 
-schoolname: "IIT Tirupati"
-schoolurl: "https://iittp.ac.in"
-twitter_username: username 
+#schoolname: "IIT Tirupati"
+#schoolurl: "https://iittp.ac.in"
+#twitter_username: username 
 
 
 # Set your Google Analytics tracking ID (set up yours at http://www.google.com/analytics/)
