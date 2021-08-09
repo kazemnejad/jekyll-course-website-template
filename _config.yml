@@ -7,7 +7,7 @@ baseurl: "/dlc" # the subpath of your site, e.g. /blog/
 url: "http://kmopuri.github.io/" # the base hostname & protocol for your site
 
 schoolname: "IIT Tirupati"
-#schoolurl: "https://iittp.ac.in"
+schoolurl: "https://iittp.ac.in"
 #twitter_username: username 
 
 
