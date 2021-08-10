@@ -1,6 +1,6 @@
 # Site settings
 course_name: Deep Learning
-course_description: "Introductory course on Deep Learning with equal on focus learning concepts and their implementation. Prerequisites are basic calculus, probablility, matrix operations, and basic python programming. We will use PyTorch for implementing various concepts."
+course_description: "Introductory course on Deep Learning with equal focus on learning concepts and their implementation. Prerequisites are basic calculus, probablility, matrix operations, and basic python programming. We will use PyTorch for implementing various concepts."
 course_semester: "Aug-Dec 2021"
 
 baseurl: "/dlc" # the subpath of your site, e.g. /blog/
