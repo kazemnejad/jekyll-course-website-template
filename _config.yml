@@ -2,6 +2,7 @@
 course_name: Deep Learning
 course_description: "Introductory course on Deep Learning with equal focus on learning concepts and their implementation. Prerequisites are basic calculus, probablility, matrix operations, and basic python programming. We will use PyTorch for implementing various concepts."
 course_semester: "Aug-Dec 2021"
+course_outcome: "These are the objectives of this course and hence can be the outcomes."
 
 baseurl: "/dlc" # the subpath of your site, e.g. /blog/
 url: "http://kmopuri.github.io/" # the base hostname & protocol for your site
