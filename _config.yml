@@ -2,13 +2,13 @@
 course_name: Deep Learning
 course_description: "Introductory course on Deep Learning with equal focus on learning concepts and their implementation. Prerequisites are basic calculus, probablility, matrix operations, and basic python programming. Exposure to Machine Learning greatly helps to quickly grasp some of the concepts. We will use PyTorch for implementing various concepts."
 course_semester: "Aug-Dec 2021"
-course_outcomes: "These are broadly the objectives of this course and hence can be the outcomes.<br>
+course_outcomes: "These are broadly the objectives of this course and hence can be the outcomes.<br><br>
                     1. Starting from an artificial neuron we aim to understand feed forward and recurrent architectures of Artificial Neural Networks.
                     We visit Neurons (MP, perceptron), MLP, CNNs, and RNNs (LSTM and GRU). We will understand how to train these models (via the Gradient Descent technique using the Backpropagation algorithm).<br>
                     2. Realizing these architectures in the PyTorch framework. We understand the underlying computational graph, Autograd function, batch processing of the data, etc. culminating
                     into writing PyTorch modules.<br>
                     3. We discuss concepts related to parameter initialization and optimization. Know about different important optimizers in PyTorch.<br>
-                    4. We emphasize on the concepts realated to depth such as why is it important, different regularization methods such as BatchNorm, DropOut, residual architectures, etc.<br>
+                    4. We emphasize on the concepts related to depth such as benefits of depth, different regularization methods to handle the complexity such as BatchNorm, DropOut, residual architectures, etc.<br>
                     5. We learn about the important unsupervised model, the Autoencoder and its variations.<br>
                     6. We take applications from Compute Vision to study the models and learning mechanism. We get into filter visualization, looking at activations, etc.<br>
                     7. We then briefly discuss the Generative models such as GANs."
