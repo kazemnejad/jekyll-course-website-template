@@ -2,7 +2,7 @@
 course_name: Deep Learning
 course_description: "Introductory course on Deep Learning with equal focus on learning concepts and their implementation. Prerequisites are basic calculus, probablility, matrix operations, and basic python programming. We will use PyTorch for implementing various concepts."
 course_semester: "Aug-Dec 2021"
-course_outcomes: "These are the objectives of this course and hence can be the outcomes.\n
+course_outcomes: "These are the objectives of this course and hence can be the outcomes. '\n'
                     1. Starting from an artificial neuron we try to understand feed forward and recurrent architectures of Artificial Neural Networks.
                     We visit Neurons (MP, perceptron), MLP, CNNs, RNNs (LSTM and GRU).\n
                     2. Realizing these architectures in the PyTorch framework. We understand the underlying computational graph, Autograd function, batch processing of the data, etc. culminating
