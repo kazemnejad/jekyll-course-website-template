@@ -2,7 +2,16 @@
 course_name: Deep Learning
 course_description: "Introductory course on Deep Learning with equal focus on learning concepts and their implementation. Prerequisites are basic calculus, probablility, matrix operations, and basic python programming. We will use PyTorch for implementing various concepts."
 course_semester: "Aug-Dec 2021"
-course_outcome: "These are the objectives of this course and hence can be the outcomes."
+course_outcomes: "These are the objectives of this course and hence can be the outcomes.\n
+                    1. Starting from an artificial neuron we try to understand feed forward and recurrent architectures of Artificial Neural Networks.
+                    We visit Neurons (MP, perceptron), MLP, CNNs, RNNs (LSTM and GRU).\n
+                    2. Realizing these architectures in the PyTorch framework. We understand the underlying computational graph, Autograd function, batch processing of the data, etc. culminating
+                    into writing PyTorch modules.\n
+                    3. We discuss concepts related to parameter initialization and optimization. Know about different important optimizers in PyTorch.\n
+                    4. We emphasize on the concepts realated to depth such as why is it important, different regularization methods such as BatchNorm, DropOut, residual architectures, etc.\n
+                    5. We learn about the important unsupervised model, the Autoencoder and its variations.\n
+                    6. We take applications from Compute Vision to study the models and learning mechanism. We get into filter visualization, looking at activations, etc.\n
+                    7. We then briefly discuss the Generative models such as GANs."
 
 baseurl: "/dlc" # the subpath of your site, e.g. /blog/
 url: "http://kmopuri.github.io/" # the base hostname & protocol for your site
