@@ -1,12 +1,12 @@
 ---
 type: lecture
-date: 2021-08-16
+date: 2021-08-17
 title: Lecture Title
-tldr: "Short text to discribe what this lecture is about."
+tldr: "Course Introduction"
 #thumbnail: /static_files/presentations/lec.jpg
 links: 
-   # - url: /static_files/presentations/lec.zip
-   #   name: notes
+   # - url: /static_files/presentations/dlc-00.pdf
+   #   name: slides
    # - url: /static_files/presentations/code.zip
    #   name: codes
     - url: https://google.com
