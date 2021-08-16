@@ -21,7 +21,7 @@
     <li class="no-p-margin">
         {% if n.type %}
             {% if n.type == 'lecture' %}
-                <?php echo date('Y-m-d');?>: New Lecture is up: {{ n.title }}             <!-- KR added the date -->
+                new Date().toDateString(): New Lecture is up: {{ n.title }}             <!-- KR added the date -->
                 {% include lecture_links.html lecture=n %}
             {% elsif n.type == 'assignment' %}
                 New Assignment released: [<a href="{{ n.url | prepend: site.baseurl }}">{{ n.title }}</a>]
