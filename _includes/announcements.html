@@ -1,11 +1,7 @@
 {% assign all_events = site.events | concat: site.lectures %}
 {% assign all_events = all_events | concat: site.assignments %}
 
-n =  new Date();  <!-- KR added the following 5 lines for adding date -->
-y = n.getFullYear();
-m = n.getMonth() + 1;
-d = n.getDate();
-document.getElementById("date").innerHTML = m + "/" + d + "/" + y;  <!-- Date code ends here -->
+
 
 {% assign events_to_show = "" | split: "" %}
 {% for e in all_events %}
