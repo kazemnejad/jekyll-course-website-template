@@ -1,7 +1,7 @@
 ---
 type: lecture
 date: 2021-08-17
-title: Course Introduction
+title: 00-Course Introduction
 
 # optional
 # please use /static_files/notes directory to store notes
