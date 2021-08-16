@@ -1,7 +1,7 @@
 ---
 type: lecture
 date: 2021-08-16
-title: dlc-1.1: From NNs to DL
+title: dlc-1.1 --> From NNs to DL
 
 # optional
 # please use /static_files/notes directory to store notes
