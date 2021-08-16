@@ -1,6 +1,12 @@
 {% assign all_events = site.events | concat: site.lectures %}
 {% assign all_events = all_events | concat: site.assignments %}
 
+n =  new Date();  <!-- KR added the following 5 lines for adding date -->
+y = n.getFullYear();
+m = n.getMonth() + 1;
+d = n.getDate();
+document.getElementById("date").innerHTML = m + "/" + d + "/" + y;  <!-- Date code ends here -->
+
 {% assign events_to_show = "" | split: "" %}
 {% for e in all_events %}
     {% unless e.hide_from_announcments %}
@@ -19,7 +25,7 @@
     <li class="no-p-margin">
         {% if n.type %}
             {% if n.type == 'lecture' %}
-                <?php date("Y/m/d") ?>: New Lecture is up: {{ n.title }}             <!-- KR added the date -->
+                <p id="date"></p>: New Lecture is up: {{ n.title }}             <!-- KR added the date -->
                 {% include lecture_links.html lecture=n %}
             {% elsif n.type == 'assignment' %}
                 New Assignment released: [<a href="{{ n.url | prepend: site.baseurl }}">{{ n.title }}</a>]
