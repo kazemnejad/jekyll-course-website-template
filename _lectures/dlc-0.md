@@ -20,7 +20,7 @@ links:
     #  name: notes
     #- url: /static_files/presentations/code.zip
     #  name: codes
-    - url: /static_files/presentations/dlc-00.pdf
+    - url: /static_files/presentations/dlc-0.pdf
       name: slides
     #- url: /static_files/presentations/lec.zip
     #  name: other
