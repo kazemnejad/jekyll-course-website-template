@@ -8,7 +8,7 @@ title: dlc-1.1: From NNs to DL
 # thumbnail: /static_files/path/to/image.jpg
 
 # optional
-tldr: "What is DL?."
+tldr: "What is DL?"
   
 # optional
 # set it to true if you dont want this lecture to appear in the updates section
