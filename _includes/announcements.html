@@ -21,7 +21,9 @@
     <li class="no-p-margin">
         {% if n.type %}
             {% if n.type == 'lecture' %}
-                {{ n.date }}: New Lecture is up: {{ n.title }}             <!-- KR added and removed the date <script> document.write(new Date().toLocaleDateString()); </script>:  -->
+                var d = n.date
+                d = d.split(' ')[0];
+                {{ d }}: New Lecture is up: {{ n.title }}             <!-- KR added and removed the date <script> document.write(new Date().toLocaleDateString()); </script>:  -->
                 {% include lecture_links.html lecture=n %}
             {% elsif n.type == 'assignment' %}
                 New Assignment released: [<a href="{{ n.url | prepend: site.baseurl }}">{{ n.title }}</a>]
