@@ -18,8 +18,8 @@ hide_from_announcments: false
 links: 
     #- url: /static_files/presentations/lec.zip
     #  name: notes
-    #- url: /static_files/presentations/code.zip
-    #  name: codes
+    - url: https://colab.research.google.com/drive/1xkLKP687VjjDQpp2x4VrrET-05woCFsp?usp=sharing
+      name: codes
     - url: /static_files/presentations/dlc-2.2.pdf
       name: slides
     #- url: /static_files/presentations/lec.zip
