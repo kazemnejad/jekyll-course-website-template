@@ -19,7 +19,7 @@ links:
     #- url: /static_files/presentations/lec.zip
     #  name: notes
     - url: https://colab.research.google.com/drive/1xkLKP687VjjDQpp2x4VrrET-05woCFsp?usp=sharing
-      name: codes
+      name: Model Capacity-codes
     - url: /static_files/presentations/dlc-2.3.pdf
       name: slides
     #- url: /static_files/presentations/lec.zip
