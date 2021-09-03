@@ -15,11 +15,11 @@ tldr: "Basics of Tensors"
 hide_from_announcments: false
 
 # optional
-links: 
-    #- url: /static_files/presentations/lec.zip
-    #  name: notes
+links:     
     - url: https://colab.research.google.com/drive/1i__UOd8nLu4GdKf9PoT_w3ORVvGcgQAq?usp=sharing
       name: Tensor basics-codes
+     - url: https://colab.research.google.com/drive/1QIX45oJBxGiQmeT0tm99sMfMGpY9uzZg?usp=sharing
+      name: Linear Regression-codes
     - url: /static_files/presentations/dlc-1.2.pdf
       name: slides
     #- url: /static_files/presentations/lec.zip
