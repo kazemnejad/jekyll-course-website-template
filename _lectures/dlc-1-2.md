@@ -18,8 +18,8 @@ hide_from_announcments: false
 links: 
     #- url: /static_files/presentations/lec.zip
     #  name: notes
-    #- url: /static_files/presentations/code.zip
-    #  name: codes
+    - url: https://colab.research.google.com/drive/1i__UOd8nLu4GdKf9PoT_w3ORVvGcgQAq?usp=sharing
+      name: Tensor basics-codes
     - url: /static_files/presentations/dlc-1.2.pdf
       name: slides
     #- url: /static_files/presentations/lec.zip
