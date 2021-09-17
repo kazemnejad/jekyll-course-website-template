@@ -1,7 +1,7 @@
 ---
 type: lecture
 date: 2021-09-15
-title: (dlc-3-5) More on Gradient Descent
+title: (dlc-3.5) More on Gradient Descent
 
 # optional
 # please use /static_files/notes directory to store notes
