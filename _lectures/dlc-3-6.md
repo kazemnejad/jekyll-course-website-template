@@ -1,7 +1,7 @@
 ---
 type: lecture
 date: 2021-09-17
-title: (dlc-3.6) More on Gradient Descent
+title: (dlc-3.6) Backprop beyond MLP and Autograd
 
 # optional
 # please use /static_files/notes directory to store notes
