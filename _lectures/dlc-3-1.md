@@ -1,7 +1,7 @@
 ---
 type: lecture
 date: 2021-08-27
-title: (dlc-3-1) Perceptron
+title: (dlc-3.1) Perceptron
 
 # optional
 # please use /static_files/notes directory to store notes
