@@ -1,7 +1,7 @@
 ---
 type: lecture
 date: 2021-09-07
-title: (dlc-3-4) Backpropagation
+title: (dlc-3.4) Backpropagation
 
 # optional
 # please use /static_files/notes directory to store notes
