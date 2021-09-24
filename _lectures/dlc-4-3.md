@@ -1,7 +1,7 @@
 ---
 type: lecture
 date: 2021-09-24
-title: (dlc-4.3) Putting it all together: CNN
+title: (dlc-4.3) Putting it all together
 
 # optional
 # please use /static_files/notes directory to store notes
