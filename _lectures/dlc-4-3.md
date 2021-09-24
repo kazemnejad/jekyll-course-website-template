@@ -8,7 +8,7 @@ title: (dlc-4.3) Putting it all together
 # thumbnail: /static_files/path/to/image.jpg
 
 # optional
-tldr: "Architecture of a CNN with a case study"
+tldr: "General architecture of CNNs with a case study"
   
 # optional
 # set it to true if you dont want this lecture to appear in the updates section
