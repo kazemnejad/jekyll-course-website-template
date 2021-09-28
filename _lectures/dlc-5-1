@@ -1,14 +1,14 @@
 ---
 type: lecture
 date: 2021-09-29
-title: (dlc-5.1) Cross-entropy, weight initialization, data normalization
+title: (dlc-5.1) Cross-entropy loss
 
 # optional
 # please use /static_files/notes directory to store notes
 # thumbnail: /static_files/path/to/image.jpg
 
 # optional
-tldr: "Cross-entropy, weight initialization, data normalization"
+tldr: "Cross-entropy used for training classifiers"
   
 # optional
 # set it to true if you dont want this lecture to appear in the updates section
