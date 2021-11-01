@@ -1,6 +1,6 @@
 ---
 type: lecture
-date: 2021-10-22
+date: 2021-10-29
 title: (dlc-7.2) Autoencoders
 
 # optional
