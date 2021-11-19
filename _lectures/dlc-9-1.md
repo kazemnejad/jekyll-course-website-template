@@ -19,7 +19,7 @@ links:
     #- url: /static_files/presentations/lec.zip
     #  name: notes
     - url: https://colab.research.google.com/drive/1f5-Ho5fwtn20_PCe1nw4PvaEr8BWsAJF?usp=sharing
-      name: Elman Network
+      name: Simple GAN
     - url: /static_files/presentations/dlc-9.1.pdf
       name: slides
     #- url: /static_files/presentations/lec.zip
