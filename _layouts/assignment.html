@@ -11,7 +11,7 @@ title: page.title
 
   <div>
     {% if page.due_event %}
-    <span style="font-weight: bold">Due Date: {{ page.due | date: site.dateformat }} {{ page.due_event.date | date: "%H:%M" }}</span>
+    <span style="font-weight: bold">Due Date: {{ page.due_event.date | date: site.dateformat }} {{ page.due_event.date | date: "%H:%M" }}</span>
     {% endif %}
     <p style="font-weight: bold">Download
       {% if page.pdf %}
