@@ -7,8 +7,7 @@ thumbnail: /static_files/presentations/lec.jpg
 links: 
     - url: /static_files/presentations/13 subject SQL (SQL - 1).pptx
       name: presentation
-    - url: https://colab.research.google.com/
-      name: google colab
+
 ---
 **Suggested Readings:**
 - [MongoDB](https://www.mongodb.com/)

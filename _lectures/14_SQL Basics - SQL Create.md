@@ -7,8 +7,7 @@ thumbnail: /static_files/presentations/lec.jpg
 links: 
     - url: /static_files/presentations/14 subject SQL (SQL - 2).pptx
       name: presentation
-    - url: https://colab.research.google.com/
-      name: google colab
+
 ---
 **Suggested Readings:**
 - [SQL Create](https://www.w3schools.com/sql/sql_ref_create.asp)
