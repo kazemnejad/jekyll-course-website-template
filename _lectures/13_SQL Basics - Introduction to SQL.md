@@ -11,5 +11,6 @@ links:
       name: google colab
 ---
 **Suggested Readings:**
-- [Reading 1](http://example.com)
-- [Reading 2](http://example.com)
+- [MongoDB](https://www.mongodb.com/)
+- [SQL vs NoSQL](https://medium.com/nerd-for-tech/mysql-vs-nosql-b0838f6ae10)
+

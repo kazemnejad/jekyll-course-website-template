@@ -1,7 +1,7 @@
 ---
 type: lecture
 date: 2023-09-16T8:00:00+4:30
-title: Openning lecture - AI 01
+title: Openning Lecture - AI
 tldr: "First opening lecture."
 thumbnail: /static_files/presentations/lec.jpg
 links: 

@@ -1,15 +1,15 @@
 ---
 type: lecture
 date: 2023-09-16T8:00:00+4:30
-title: subject python
-tldr: "Short text to describe what this lecture is about."
+title: Python Basics - For Loops
+tldr: "Python Basics Loops - For Loop"
 thumbnail: /static_files/presentations/lec.jpg
 links: 
-    - url: /static_files/presentations/05 subject python (python - 3).pptx
+    - url: /static_files/presentations/09 subject python (python - 7).pptx
       name: presentation
     - url: https://colab.research.google.com/
       name: google colab
 ---
 **Suggested Readings:**
-- [Reading 1](http://example.com)
+- [Additional Practice](https://pynative.com/python-if-else-and-for-loop-exercise-with-solutions/)
 - [Reading 2](http://example.com)

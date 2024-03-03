@@ -11,5 +11,9 @@ links:
       name: google colab
 ---
 **Suggested Readings:**
-- [Reading 1](http://example.com)
-- [Reading 2](http://example.com)
+- [SQL Create](https://www.w3schools.com/sql/sql_ref_create.asp)
+- [SQL Online](https://sqliteonline.com/)
+
+**Machine Learning:**
+- [Linear Regression](https://mlu-explain.github.io/linear-regression/)
+- [Introduction to Neural Networks (NN)](https://mlu-explain.github.io/neural-networks/)
