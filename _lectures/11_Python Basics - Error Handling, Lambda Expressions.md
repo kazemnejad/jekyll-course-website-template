@@ -7,7 +7,7 @@ thumbnail: /static_files/presentations/lec.jpg
 links: 
     - url: /static_files/presentations/11 subject python (python - 9).pptx
       name: presentation
-    - url: https://colab.research.google.com/
+    - url: https://colab.research.google.com/drive/1J2CjawHo7M91J-1dpbDb-T6Wx9OfIuK_
       name: google colab
 ---
 **Suggested Readings:**
