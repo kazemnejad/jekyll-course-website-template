@@ -1,7 +1,10 @@
 # Site settings
-course_name: History of Magic
-course_description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam ornare aliquam mattis. Donec hendrerit sollicitudin urna. Aliquam venenatis rutrum velit, at lobortis dui cursus a. Nam varius metus in turpis maximus, ut rhoncus tellus dictum. In aliquam tortor nec mi dapibus, sit amet vehicula dolor auctor."
-course_semester: "Fall 1998"
+course_name: Computer Vision
+course_description: "This course provides an introduction to computer vision, including fundamentals of image
+formation, camera imaging geometry, feature detection and matching, stereo, motion
+estimation and tracking, image classification, scene understanding, and deep learning with
+neural networks."
+course_semester: "Fall 2024"
 
 baseurl: "/csc606" # the subpath of your site, e.g. /blog/
 url: "http://alnemari-m.github.io/" # the base hostname & protocol for your site
@@ -11,7 +14,7 @@ schoolurl: "https://www.ut.edu.sa/ar/Pages/default.aspx"
 twitter_username: username 
 
 address: |
-    school of computer science and information technology
+    school of Computer Science and Information Technology
     University of Tabuk
     Saudi Arabia
 
