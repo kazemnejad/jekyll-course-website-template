@@ -16,4 +16,3 @@ links:
 - [Readings 1](http://example.com)
 - [Readings 2](http://example.com)
 
-
