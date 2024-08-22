@@ -1,8 +1,7 @@
-
 ---
 type: lecture
 date: 2024-09-30T8:00:00+4:30
-title: Week 6: Camera Calibration & 3D Reconstruction
+title: "Week 6: Camera Calibration & 3D Reconstruction"
 tldr: "Camera Calibration Techniques and 3D Reconstruction."
 thumbnail: /static_files/presentations/lec11_12.jpg
 links:

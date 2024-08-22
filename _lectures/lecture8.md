@@ -1,7 +1,7 @@
 ---
 type: lecture
 date: 2024-10-14T8:00:00+4:30
-title: Week 8: Motion Estimation & Optical Flow
+title: "Week 8: Motion Estimation & Optical Flow"
 tldr: "Motion Detection: Optical Flow and Object Tracking."
 thumbnail: /static_files/presentations/lec15_16.jpg
 links:

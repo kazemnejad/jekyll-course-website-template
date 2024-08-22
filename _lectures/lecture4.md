@@ -1,7 +1,7 @@
 ---
 type: lecture
 date: 2024-09-16T8:00:00+4:30
-title: Week 4: Image Segmentation & Clustering
+title: "Week 4: Image Segmentation & Clustering"
 tldr: "Segmentation Techniques and Clustering Methods."
 thumbnail: /static_files/presentations/lec7_8.jpg
 links:

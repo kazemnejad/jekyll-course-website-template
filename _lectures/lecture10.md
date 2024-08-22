@@ -1,7 +1,7 @@
 ---
 type: lecture
 date: 2024-10-28T8:00:00+4:30
-title: Week 10: Machine Learning in Vision
+title: "Week 10: Machine Learning in Vision"
 tldr: "Introduction to Machine Learning, SVMs, and Neural Networks."
 thumbnail: /static_files/presentations/lec19_20.jpg
 links:

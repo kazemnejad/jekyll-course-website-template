@@ -1,7 +1,7 @@
 ---
 type: lecture
 date: 2024-09-09T8:00:00+4:30
-title: Week 3: Feature Detection & Matching
+title: "Week 3: Feature Detection & Matching"
 tldr: "Feature Detection: Corners, Blobs, and Feature Matching."
 thumbnail: /static_files/presentations/lec5_6.jpg
 links:
