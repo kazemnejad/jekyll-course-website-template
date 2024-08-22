@@ -4,7 +4,7 @@ title: Project
 permalink: /project/
 ---
 1. Multi-View Geometry and 3D Reconstruction
-   Project Description: Implement a 3D reconstruction pipeline using images captured from multiple viewpoints. The project will involve tasks such as feature matching, essential matrix computation, triangulation, and bundle adjustment to create a 3D model from 2D images.
+   Project Descripxxxtion: Implement a 3D reconstruction pipeline using images captured from multiple viewpoints. The project will involve tasks such as feature matching, essential matrix computation, triangulation, and bundle adjustment to create a 3D model from 2D images.
    Key Topics Covered:
    Camera Models
    Feature Detection and Matching
