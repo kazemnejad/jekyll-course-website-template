@@ -6,14 +6,14 @@ course_semester: "Fall 1998"
 baseurl: "/csc606" # the subpath of your site, e.g. /blog/
 url: "http://alnemari-m.github.io/" # the base hostname & protocol for your site
 
-schoolname: "Hogwarts"
-schoolurl: "https://hogwarts.edu"
+schoolname: "University of Tabuk"
+schoolurl: "https://www.ut.edu.sa/ar/Pages/default.aspx"
 twitter_username: username 
 
 address: |
-    School of Witchcraft and Wizardry
-    Hogwarts
-    Scotland
+    school of computer science and information technology
+    University of Tabuk
+    Saudi Arabia
 
 # Set your Google Analytics tracking ID (set up yours at http://www.google.com/analytics/)
 # google_analytics: UA-XXXXXXXX-X
