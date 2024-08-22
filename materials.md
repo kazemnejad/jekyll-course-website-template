@@ -8,7 +8,7 @@ permalink: /materials/
 
 ## Book
 
-Alan Turing and Noam Chomsky: Very Famous Book
+Alan Turing and Noam Chomsky: hhhhhhhhhhh
 
 ## Additional Course Materials
 
