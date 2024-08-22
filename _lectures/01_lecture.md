@@ -1,17 +1,18 @@
 ---
 type: lecture
-date: 2024-09-16T8:00:00+4:30
-title: Sample Lecture
-tldr: "Short text to discribe what this lecture is about."
-thumbnail: /static_files/presentations/lec.jpg
-links: 
-    - url: /static_files/presentations/lec.zip
-      name: notes
-    - url: /static_files/presentations/code.zip
-      name: codes
-    - url: https://google.com
-      name: slides
+date: 2024-08-26T8:00:00+4:30
+title: Week 1 Introduction & Image Formation
+tldr: "Introduction to Computer Vision and Image Formation."
+thumbnail: /static_files/presentations/lec1_2.jpg
+links:
+  - url: /static_files/presentations/01_lecture.md
+    name: notes
+  - url: /static_files/presentations/01_lecture_notebook.ipynb
+    name: notebook
+  - url: https://google.com
+    name: slides 1
+  - url: https://google.com
+    name: slides 2
+  - url: /static_files/presentations/01_lecture.zip
+    name: download all
 ---
-**Suggested Readings:**
-- [Readings 1](http://example.com)
-- [Readings 2](http://example.com)
