@@ -1,4 +1,4 @@
 ---
-date: 2018-10-03T10:00:00+3:30
+date: 1403-07-01T00:00:00
 ---
 Sample announcement, Please check out [here](/).

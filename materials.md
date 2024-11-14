@@ -4,17 +4,17 @@ title: Materials
 permalink: /materials/
 ---
 
-{% include image.html url="/_images/cover2.jpg" width=175 align="right" %}
+{% include image.html url="/_images/coverBook.jpg" width=175 align="right" %}
 
 ## Book
 
-Alan Turing and Noam Chomsky: Very Famous Book
+Java How to Program, Early Objects, by Deitel
 
 ## Additional Course Materials
 
-* If you are not familiar with Python programming, use any online tutorial to get a handle of it.
-* [Material #1](http://www.example.com/): how a computer chess player thinks!
-* [Material #2](http://www.example.com/): how a computer chess player thinks!
-* [Material #3](http://www.example.com/): how a computer chess player thinks!
-* [Material #4](http://www.example.com/): how a computer chess player thinks!
-* [Material #5](http://www.example.com/): how a computer chess player thinks!
+
+* If you are not familiar with Java programming, use any online tutorial to get a handle of it.
+* [Material #1](https://jenkov.com/tutorials/java/index.html): the main and important source!
+* [Material #2](https://javacup.ir/): a Persian site for learning Java!
+* [Material #3](https://www.w3schools.com/java/): basic Java training with examples!
+* [Material #4](https://www.geeksforgeeks.org/java/): all about Java and programming!

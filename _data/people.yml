@@ -1,19 +1,58 @@
 instructors:
-  - name: Albus Dumbledore
+  - name: Dr Hossein Boomari
     profile_pic: /_images/pp/dumbledore.jpg
-    webpage: https://en.wikipedia.org/wiki/Albus_Dumbledore
-  - name: Minerva McGonagall
-    profile_pic: /_images/pp/mcgonagall.jpg
-
+    webpage: mh.hima@gmail.com
+    
+developers:
+  - name: Mohammad Mahdi Asgari
+    profile_pic: /_images/pp/MMA.jpg
+    webpage: asgarimohammadmahdi78@gmail.com 
+    
+  - name: Zeynab Ashouri
+    profile_pic: /_images/pp/ZEY.jpg
+    webpage: zeynabashouri21@gmail.com
+    
 teaching_assistants:
-  - name: Harry Potter
-    profile_pic: /_images/pp/potter.jpg
-    webpage: https://en.wikipedia.org/wiki/Harry_Potter_(character)
+  - name: Mohammad Mahdi Asgari
+    profile_pic: /_images/pp/MMA.jpg
+    webpage: asgarimohammadmahdi78@gmail.com
 
-  - name: Hermione Granger
-    profile_pic: /_images/pp/granger.jpg
-    webpage: https://en.wikipedia.org/wiki/Hermione_Granger
+  - name: Zeynab Ashouri
+    profile_pic: /_images/pp/ZEY.jpg
+    webpage: zeynabashouri21@gmail.com
+    
+ - name: Aryan Noorzadeh
+   profile_pic: /_images/pp/Programming_code.jpg
+   webpage: aarriinnoorr1317@gmail.com
 
-  - name: Ron Weasley
-    profile_pic: /_images/pp/weasley.jpg
-    webpage: https://en.wikipedia.org/wiki/Ron_Weasley
+ - name: Mahdi Khoshnevis
+   profile_pic: /_images/pp/Programming_code.jpg
+   webpage: khoshnewiss@gmail.com
+    
+ - name: Shayan Salehi
+   profile_pic: /_images/pp/Programming_code.jpg
+   webpage: shayansalehisut@gmail.com
+
+ - name: Mahdi Zahedi
+   profile_pic: /_images/pp/studentPhoto.jpg
+   webpage:  mahdi.zahedi.mahdi@gmail.com
+
+ - name: Ali Ghorbani
+   profile_pic: /_images/pp/Programming_code.jpg
+   webpage:  erfan23g@icloud.com
+
+ - name: Maryan Mehdizadeh
+   profile_pic: /_images/pp/Programming_code.jpg
+   webpage: maryam.mehdizadeh1384@gmail.com
+   
+ - name: Maryan Mehdizadeh
+   profile_pic: /_images/pp/Programming_code.jpg
+   webpage: maryam.mehdizadeh1384@gmail.com
+
+ - name: Raya Namazi
+   profile_pic: /_images/pp/Programming_code.jpg
+   webpage: nmzraya@gmail.com
+   
+ - name: Mahdi Rasoulzade
+   profile_pic: /_images/pp/Programming_code.jpg
+   webpage: edu@itsmahdi.con

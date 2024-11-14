@@ -1,19 +1,18 @@
 # Site settings
-course_name: History of Magic
-course_description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam ornare aliquam mattis. Donec hendrerit sollicitudin urna. Aliquam venenatis rutrum velit, at lobortis dui cursus a. Nam varius metus in turpis maximus, ut rhoncus tellus dictum. In aliquam tortor nec mi dapibus, sit amet vehicula dolor auctor."
-course_semester: "Fall 1998"
+course_name: Basic Programming 
+course_description: "Welcome to the Basic Programming course of Department of Mathematical Sciences Sharif University of Technology.     Saturday and Monday 10:30-12:30 AM."
+course_semester: "Autumn 2024"
 
-baseurl: "/jekyll-course-website-template" # the subpath of your site, e.g. /blog/
-url: "http://kazemnejad.github.io/" # the base hostname & protocol for your site
+baseurl: "/Basic-Programming-Autumn-03" # the subpath of your site, e.g. /blog/
+url: "http://theblackdemon.github.io/" # the base hostname & protocol for your site
 
-schoolname: "Hogwarts"
-schoolurl: "https://hogwarts.edu"
-twitter_username: username 
+schoolname: "Sharif University of Technology"
+schoolurl: "https://sharif.edu"
+twitter_username: null
 
 address: |
-    School of Witchcraft and Wizardry
-    Hogwarts
-    Scotland
+    Tehran 
+    Iran
 
 # Set your Google Analytics tracking ID (set up yours at http://www.google.com/analytics/)
 # google_analytics: UA-XXXXXXXX-X
