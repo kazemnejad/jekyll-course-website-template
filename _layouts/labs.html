@@ -1,0 +1,11 @@
+---
+layout: page
+---
+<ul>
+  {% assign sorted_labs = site.labs | sort: 'date' %}
+  {% for lab in sorted_labs %}
+    <li>
+      <a href="{{ lab.url | prepend: site.baseurl}}">{{ lab.title }}</a>
+    </li>
+  {% endfor %}
+</ul>

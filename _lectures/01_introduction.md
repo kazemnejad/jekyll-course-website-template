@@ -1,17 +1,10 @@
 ---
 type: lecture
-date: 2018-09-16T8:00:00+4:30
-title: Sample Lecture
-tldr: "Short text to discribe what this lecture is about."
-thumbnail: /static_files/presentations/lec.jpg
+date: 2025-07-07
+title: Lecture One
 links: 
-    - url: /static_files/presentations/lec.zip
-      name: notes
-    - url: /static_files/presentations/code.zip
-      name: codes
-    - url: https://google.com
-      name: slides
----
-**Suggested Readings:**
-- [Readings 1](http://example.com)
-- [Readings 2](http://example.com)
+  - url: /static_files/presentations/DSBasics.pdf
+    name: Lecture One Notes
+
+  - url: [Lecture One Code](https://github.com/wonjun-seo/cosmos/tree/master/static_files/presentations/lecture_one)
+    name: Lecture One Code (Download and run in VS Code)

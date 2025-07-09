@@ -1,19 +1,23 @@
 # Site settings
-course_name: History of Magic
-course_description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam ornare aliquam mattis. Donec hendrerit sollicitudin urna. Aliquam venenatis rutrum velit, at lobortis dui cursus a. Nam varius metus in turpis maximus, ut rhoncus tellus dictum. In aliquam tortor nec mi dapibus, sit amet vehicula dolor auctor."
-course_semester: "Fall 1998"
+course_name: "Beyond the Numbers: Exploring Data Science and Big Data Innovation"
+course_description: |
+    Data is everywhere—from social media trends that shape our daily interactions to scientific research that drives discoveries—and the ability to harness this data responsibly is a skill of growing importance. This cluster offers courses crafted for high school students who are eager to apply their mathematical knowledge to gain insights into the world of data science. This field creatively combines statistical methods, modern AI tools, computational techniques, critical thinking, and ethical responsibility. In this cluster, students will learn to see data not just as static numbers in a table, but as a powerful resource to solve problems, uncover trends, make informed decisions, and drive innovation.
+    
+    Throughout the course, students will be introduced to a wide range of tools and techniques fundamental to data science and big data analytics. Students will go through topics in data acquisition, exploratory data analysis, confirmatory analysis, and predictive modeling. The curriculum is structured to mimic the pipeline of real-world data analysis, ensuring an authentic and practical learning experience. Each topic is carefully designed to balance theoretical understanding with hands-on application: students will delve into the principles of statistical reasoning and data science methods while practicing their skills using Python on real datasets. This approach not only equips students with practical abilities but also deepens their conceptual grasp of the subject matter, laying a solid foundation for further studies in these areas.
+    
+    In addition, the course will feature a discussion of ethical considerations in modern data science and initiate discussion with experienced data scientists in the industry. Guest speakers from UC Davis alumni working in fields like tech and healthcare will share their experiences, offering insights into how data science drives innovation across industries. By the end, students will leave with a solid foundation in data science, hands-on skills, and a deeper appreciation for the role of data in our world—ready to explore its endless possibilities!
+course_semester: "Summer 2025"
 
-baseurl: "/jekyll-course-website-template" # the subpath of your site, e.g. /blog/
-url: "http://kazemnejad.github.io/" # the base hostname & protocol for your site
+baseurl: "/cosmos" # the subpath of your site, e.g. /blog/
+url: "https://wonjun-seo.github.io/" # the base hostname & protocol for your site
 
-schoolname: "Hogwarts"
-schoolurl: "https://hogwarts.edu"
-twitter_username: username 
+schoolname: "COSMOS, UC Davis"
+schoolurl: "https://cosmos.ucdavis.edu"
 
 address: |
-    School of Witchcraft and Wizardry
-    Hogwarts
-    Scotland
+    California State Summer School For Mathematics and Science,
+    University of California, Davis
+    Davis, CA
 
 # Set your Google Analytics tracking ID (set up yours at http://www.google.com/analytics/)
 # google_analytics: UA-XXXXXXXX-X
@@ -34,19 +38,9 @@ dateformat: "%m/%d/%Y"
 
 future: true
 collections:
-    events:
-        output: true
     lectures:
         output: true
-    assignments:
+    labs:
         output: true
-    announcements:
-        output: false
+        permalink: /labs/:name/
 
-
-defaults:
-  - scope:
-      path: ""
-      type: "assignments"
-    values:
-      layout: "assignment"

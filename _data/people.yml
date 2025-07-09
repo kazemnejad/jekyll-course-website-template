@@ -1,19 +1,18 @@
 instructors:
-  - name: Albus Dumbledore
-    profile_pic: /_images/pp/dumbledore.jpg
-    webpage: https://en.wikipedia.org/wiki/Albus_Dumbledore
-  - name: Minerva McGonagall
-    profile_pic: /_images/pp/mcgonagall.jpg
+  - name: Xiucai Ding
+    profile_pic: /_images/pp/inst_ding.jpg
+    webpage: https://xcding1212.github.io
+  - name: Shizhe Chen
+    profile_pic: /_images/pp/inst_chen.jpg
+    webpage: https://www.chenshizhe.com
+
+teacher_fellow:
+  - name: Keith Sabini
+    profile_pic: /_images/pp/TF_Keith.jpeg
 
 teaching_assistants:
-  - name: Harry Potter
-    profile_pic: /_images/pp/potter.jpg
-    webpage: https://en.wikipedia.org/wiki/Harry_Potter_(character)
+  - name: Wonjun Seo
+    profile_pic: /_images/pp/ta_seo.jpg
 
-  - name: Hermione Granger
-    profile_pic: /_images/pp/granger.jpg
-    webpage: https://en.wikipedia.org/wiki/Hermione_Granger
-
-  - name: Ron Weasley
-    profile_pic: /_images/pp/weasley.jpg
-    webpage: https://en.wikipedia.org/wiki/Ron_Weasley
+  - name: JP Maestas
+    profile_pic: /_images/pp/TA_JP.jpeg

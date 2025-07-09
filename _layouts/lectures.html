@@ -1,37 +1,58 @@
----
-layout: page
----
+--- layout: page ---
 
 {{ content }}
 
-<ul id="archive">
-{% for lecture in site.lectures %}
-<li class="archiveposturl" style="background: transparent">
-<div class="lecture-container">
-    {% if lecture.thumbnail %}
-    <div class="thumbnail">
-      <div class="center-cropped" style="margin-top:5px;margin-bottom:5px;background-image: url('{{ lecture.thumbnail | prepend: site.baseurl }}');">
-        <img src="{{ lecture.thumbnail | prepend: site.baseurl }}"/>
-      </div>
-    </div>
-    {% endif %}
-    <div class="content">
-        <span style="font-weight: bold;">{{ lecture.title }}</span><br>
+{% assign lectures_by_repo = site.lectures | group_by: "github_dir" %}
 
-        <strong>tl;dr:</strong> {{ lecture.tldr }}
-        <br/>
-        <strong>
-        {% include lecture_links.html lecture=lecture %}
-        </strong>
-
-        {% if lecture.content != '' %}
-        <br/>
-        <div class="markdown-content" style="margin-top: 3px;">
-        {{ lecture.content }}
+{% for repo in lectures_by_repo %}
+  <h2 style="margin-top: 20px;">GitHub Repository: <a href="/cosmos" target="_blank">{{ repo.name }}</a></h2>
+  <ul class="lecture-list">
+    {% for lecture in repo.items %}
+    <li class="archiveposturl" style="background: transparent">
+      <div class="lecture-container">
+        
+        {% if lecture.thumbnail %}
+        <div class="thumbnail">
+          <div class="center-cropped" style="margin: 5px 0; background-image: url('{{ lecture.thumbnail | prepend: site.baseurl }}');">
+            <img src="{{ lecture.thumbnail | prepend: site.baseurl }}" alt="{{ lecture.title }}">
+          </div>
         </div>
         {% endif %}
-    </div>
-</div>
-</li>
+
+        <div class="content">
+          <h3>{{ lecture.title }}</h3>
+          {% if lecture.tldr %}
+            <p><strong>tl;dr:</strong> {{ lecture.tldr }}</p>
+          {% endif %}
+
+          {% if lecture.notes %}
+            <p><a href="{{ lecture.notes | prepend: site.baseurl }}" target="_blank">Lecture Notes (PDF)</a></p>
+          {% endif %}
+
+          <p>
+            <a href="/cosmos/static_files/presentations/DSBasics.pdf" target="_blank">Lecture One Notes</a><br>
+            <a href="https://github.com/wonjun-seo/cosmos/tree/master/static_files/presentations/lecture_one" target="_blank">Lecture One Code</a><br>
+            <a href="https://github.com/wonjun-seo/cosmos/tree/master/static_files/presentations/lecture_two" target="_blank">Lecture Two Code</a>
+          </p>
+
+          {% if lecture.links %}
+            <ul>
+              {% for item in lecture.links %}
+                {% if item.url contains '.ipynb' %}
+                <li><a href="{{ item.url | prepend: site.baseurl }}" download>{{ item.name }}</a></li>
+                {% endif %}
+              {% endfor %}
+            </ul>
+          {% endif %}
+
+          {% if lecture.content != '' %}
+            <div class="markdown-content" style="margin-top: 3px;">
+              {{ lecture.content }}
+            </div>
+          {% endif %}
+        </div>
+      </div>
+    </li>
+    {% endfor %}
+  </ul>
 {% endfor %}
-</ul>

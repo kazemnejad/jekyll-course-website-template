@@ -6,11 +6,10 @@ layout: default
 
     <h1>{{ site.course_name }} <span style="font-size: 20px;color: #0006;">/ {{ site.course_semester }} </span></h1>
 
-    {% include announcements.html %}
     <br />
 
     <h2>Course Description</h2>
-    <p>{{ site.course_description }}</p>
+    <p>{{ site.course_description | newline_to_br }}</p>
     
     {{ content }}
 
@@ -47,7 +46,23 @@ layout: default
             </div>
         </div>
 
-        <div style="width:65%; float: left">
+        <div style="width:25%; float: left">
+            <div class="profile-pic-gallary ">
+                <h2>Teacher Fellow</h2>
+                {% for tf in site.data.people.teacher_fellow %}
+                <div class="image--cover-container">
+                    <img src="{{tf.profile_pic | prepend: site.baseurl }}" class="image--cover">
+                    {% if tf.webpage %}
+                    <p><a href="{{ tf.webpage }}">{{tf.name}}</a></p>
+                    {% else %}
+                    <p>{{tf.name}}</p>
+                    {% endif %}
+                </div>
+                {% endfor %}
+            </div>
+        </div>
+
+        <div style="width:35%; float: left">
             <div class="profile-pic-gallary ">
                 <h2>Teaching Assistants</h2>
                 {% for ta in site.data.people.teaching_assistants %}

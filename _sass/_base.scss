@@ -261,11 +261,9 @@ a.tosu {
 .responsive-table {
 
     li {
-        // border-radius: 3px;
         padding: 14px 15px;
         display: flex;
         justify-content: space-between;
-        // margin-bottom: 15px;
     }
 
     .raw_li {
@@ -302,35 +300,22 @@ a.tosu {
         background-color: #f2dede;
     }
 
+    // Updated column widths
     .col-1 {
         padding: 2px;
         flex-basis: 10%;
-    }
-
-    .col-1-2 {
-        text-align: center;
-        padding: 2px 10px;
-        flex-basis: 20%;
+        max-width: 80px;
     }
 
     .col-2 {
         padding: 2px;
-        flex-basis: 20%;
+        flex-basis: 60%;
     }
 
     .col-3 {
         padding: 2px;
-        flex-basis: 25%;
-    }
-
-    .col-4 {
-        padding: 2px;
-        padding-left: 20px;
-        flex-basis: 50%;
-
-        ul {
-            margin-bottom: 0;
-        }
+        flex-basis: 30%;
+        max-width: 200px;
     }
 
     .date-spliter {}
@@ -347,9 +332,7 @@ a.tosu {
         }
 
         .col {
-
             flex-basis: 100%;
-
         }
 
         .col {
