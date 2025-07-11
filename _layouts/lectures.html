@@ -1,37 +1,29 @@
 ---
 layout: page
+title: All Lectures
 ---
 
-{{ content }}
+<h1>Course Lectures</h1>
 
-<ul id="archive">
-{% for lecture in site.lectures %}
-<li class="archiveposturl" style="background: transparent">
-<div class="lecture-container">
-    {% if lecture.thumbnail %}
-    <div class="thumbnail">
-      <div class="center-cropped" style="margin-top:5px;margin-bottom:5px;background-image: url('{{ lecture.thumbnail | prepend: site.baseurl }}');">
-        <img src="{{ lecture.thumbnail | prepend: site.baseurl }}"/>
-      </div>
-    </div>
+<ul id="lecture-list">
+  {% assign sorted_lectures = site.lectures | sort: "date" %}
+  {% for lecture in sorted_lectures %}
+  <li style="margin-bottom: 1em;">
+    <strong>Lecture {{ lecture.lecture_number }} - {{ lecture.date | date: "%B %d, %Y" }}</strong><br/>
+
+    {% if lecture.pdf_path %}
+      <a href="{{ lecture.pdf_path }}" target="_blank">📄 Lecture Notes (PDF)</a><br/>
     {% endif %}
-    <div class="content">
-        <span style="font-weight: bold;">{{ lecture.title }}</span><br>
 
-        <strong>tl;dr:</strong> {{ lecture.tldr }}
-        <br/>
-        <strong>
-        {% include lecture_links.html lecture=lecture %}
-        </strong>
-
-        {% if lecture.content != '' %}
-        <br/>
-        <div class="markdown-content" style="margin-top: 3px;">
+    {% if lecture.notebook_path %}
+      <a href="{{ lecture.notebook_path }}" download>📘 Notebook (.ipynb)</a><br/>
+    {% endif %}
+    
+    {% if lecture.content != '' %}
+      <div class="markdown-content" style="margin-top: 5px;">
         {{ lecture.content }}
-        </div>
-        {% endif %}
-    </div>
-</div>
-</li>
-{% endfor %}
+      </div>
+    {% endif %}
+  </li>
+  {% endfor %}
 </ul>
